@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ContactImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ContactManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FutureMeetingImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MeetingImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PastMeetingImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Contact.java" afterPath="$PROJECT_DIR$/src/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactManager.java" afterPath="$PROJECT_DIR$/src/ContactManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FutureMeeting.java" afterPath="$PROJECT_DIR$/src/FutureMeeting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Meeting.java" afterPath="$PROJECT_DIR$/src/Meeting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PastMeeting.java" afterPath="$PROJECT_DIR$/src/PastMeeting.java" />
-    </list>
+    <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="" />
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +26,8 @@
       <file leaf-file-name="ContactManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ContactManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.332724">
-              <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.38391224">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -756,7 +744,7 @@
       <workItem from="1450712103939" duration="465000" />
       <workItem from="1450821258643" duration="696000" />
       <workItem from="1450866803880" duration="231000" />
-      <workItem from="1450955888712" duration="2782000" />
+      <workItem from="1450955888712" duration="2834000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -768,7 +756,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9466000" />
+    <option name="totallyTimeSpent" value="9518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -1124,8 +1112,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.332724">
-          <caret line="158" column="41" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.38391224">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
