@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactImpl.java" afterPath="$PROJECT_DIR$/src/ContactImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MeetingImpl.java" afterPath="$PROJECT_DIR$/src/MeetingImpl.java" />
     </list>
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53382087">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -68,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeetingImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MeetingImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MeetingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.08226691">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -162,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/Meeting.java" />
         <option value="$PROJECT_DIR$/src/PastMeeting.java" />
         <option value="$PROJECT_DIR$/src/ContactImpl.java" />
+        <option value="$PROJECT_DIR$/src/MeetingImpl.java" />
       </list>
     </option>
   </component>
@@ -747,7 +749,7 @@
       <workItem from="1450712103939" duration="465000" />
       <workItem from="1450821258643" duration="696000" />
       <workItem from="1450866803880" duration="231000" />
-      <workItem from="1450955888712" duration="5418000" />
+      <workItem from="1450955888712" duration="5794000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -759,7 +761,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12102000" />
+    <option name="totallyTimeSpent" value="12478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -1042,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1118,8 +1112,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53382087">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MeetingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08226691">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
