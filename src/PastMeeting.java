@@ -13,6 +13,7 @@ public interface PastMeeting extends Meeting {
       * If there are no notes, the empty string is returned.
       *
       * @return the notes from the meeting.
-      */
-     String getNotes();
+     */
+      String getNotes();
+
 }

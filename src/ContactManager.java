@@ -93,7 +93,7 @@ public interface ContactManager {
      * @throws IllegalArgumentException if the contact does not exist
      * @throws NullPointerException if the contact is null
     */
-    List<PastMeeting> getPastMeetingListFor(Contact contact);
+     List<PastMeeting> getPastMeetingListFor(Contact contact);
 
     /**
      * Create a new record for a meeting that took place in the past.
@@ -104,8 +104,8 @@ public interface ContactManager {
      * @throws IllegalArgumentException if the list of contacts is
      * empty, or any of the contacts does not exist
      * @throws NullPointerException if any of the
-     */
-    void addNewPastMeeting(Set<Contact> contacts, Calendar date, String text);
+    */
+     void addNewPastMeeting(Set<Contact> contacts, Calendar date, String text);
 
     /**
      * Add notes to a meeting.
@@ -132,7 +132,7 @@ public interface ContactManager {
      * @throws IllegalArgumentException if the name or the notes are empty strings
      * @throws NullPointerException if the name or the notes are null
     */
-    int addNewContact(String name, String notes);
+     int addNewContact(String name, String notes);
 
     /**
      * Returns a list with the contacts whose name contains that string.
@@ -144,7 +144,7 @@ public interface ContactManager {
      * @return a list with the contacts whose name contains that string.
      * @throws NullPointerException if the parameter is null
     */
-    Set<Contact> getContacts(String name);
+     Set<Contact> getContacts(String name);
 
     /**
      * Returns a list containing the contacts that correspond to the IDs.
@@ -155,14 +155,14 @@ public interface ContactManager {
      * @throws IllegalArgumentException if no IDs are provided or if
      *      any of the provided IDs does not correspond to a real contact
      *
-     */
-    Set<Contact> getContacts(int... ids);
+    */
+     Set<Contact> getContacts(int... ids);
 
     /**
      * Save all data to disk.
      *
      * This method must be executed when the program is
      * closed and when/if the user requests it.
-     */
-    void flush();
+    */
+     void flush();
 }
