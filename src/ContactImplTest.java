@@ -21,4 +21,11 @@ public class ContactImplTest {
         contact1 = new ContactImpl(name, notes, id);
         contact2 = new ContactImpl(name, notes, id);
     }
+
+    @Test
+    public void testNameAccessor() {
+        assertEquals(name, contact1.getName());
+    }
+
+    
 }
