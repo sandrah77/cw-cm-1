@@ -3,7 +3,7 @@
  * This class implements the Contact interface
  */
 public class ContactImpl {
-    private int id;
+    int id;
     private String name;
     private String notes;
 
