@@ -12,7 +12,13 @@ public class ContactImplTest {
     String notes;
     int id;
 
-     
+    @Before
+    public void initialiseConstructor() {
+        name = "Stephen";
+        notes = "Paging...";
+        id = 42;
 
+        contact1 = new ContactImpl(name, notes, id);
+        contact2 = new ContactImpl(name, notes, id);
     }
 }

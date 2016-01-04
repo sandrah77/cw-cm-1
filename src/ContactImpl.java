@@ -4,8 +4,8 @@
  */
 public class ContactImpl {
     int id;
-    private String name;
-    private String notes;
+    String name;
+    String notes;
 
     /**
      * Default constructor with the id provided by the contact manager,
