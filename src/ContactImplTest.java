@@ -20,12 +20,15 @@ public class ContactImplTest {
 
     @Test
     public void testNameAccessor() {
-        Contact contact1 = new ContactImpl(42, "Stephen", "Calling..");
+        ContactImpl contact1 = new ContactImpl(42, "Stephen", "Calling..");
         assertEquals(3, contact1.getId());
+        assertEquals("Stephen", contact1.getName());
+        assertEquals("Calling..", contact1.getNotes());
     }
-/*
+
     @Test
-    public void testNotesAccessor() {
+    public void testNotesAccessor(String notes) {
+        ContactImpl contact2 = new ContactImpl("Calling..");
         assertEquals(notes, contact2.getNotes());
     }
 
@@ -33,5 +36,4 @@ public class ContactImplTest {
     public void testIDAccessor() {
         assertEquals(notes, contact2.getId());
     }
-*/
 }

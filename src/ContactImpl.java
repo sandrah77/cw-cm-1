@@ -2,11 +2,10 @@
  * Created by Alexander on 24/12/2015.
  * This class implements the Contact interface
  */
-public class ContactImpl {
+public class ContactImpl implements Contact {
     int Id;
-    String2 name;
-    String notes;
-
+    String name;
+    //String notes;
     /**
      * Another more restricted constructor which take only two parameters (ID and name)
      *
@@ -18,9 +17,17 @@ public class ContactImpl {
      * @param Id the contact id
      * @param name the contact name
      */
-    public ContactImpl(int Id, String name, String notes) {
+    public ContactImpl(int Id, String name, String notes){
         this.Id = Id;
         this.name = name;
-        notes = "";
+        this.notes = "";
+    }
+    
+    public int getId() {
+        return this.id;
+    }
+
+    public String getName() {
+        return this.name;
     }
 }
