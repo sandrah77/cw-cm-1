@@ -8,16 +8,6 @@ public class ContactImpl {
     String notes;
 
     /**
-     * Default constructor with the id provided by the contact manager,
-     * which includes the corresponding name and notes.
-     */
-    ContactImpl(){
-        this.id = 0;
-        this.name = "";
-        notes = "";
-    }
-
-    /**
      * Another more restricted constructor which take only two parameters (ID and name)
      *
      * If the ID provided is zero or negative, an IllegalArgumentException will be thrown.

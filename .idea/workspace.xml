@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactImpl.java" afterPath="$PROJECT_DIR$/src/ContactImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactImplTest.java" afterPath="$PROJECT_DIR$/src/ContactImplTest.java" />
     </list>
     <ignored path="cw-cm.iws" />
@@ -35,27 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.49247605">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65663475">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#475#476#0" expanded="true" />
                 <element signature="e#529#530#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
                 <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/PastMeeting.java" />
         <option value="$PROJECT_DIR$/src/ContactManager.java" />
         <option value="$PROJECT_DIR$/src/Contact.java" />
-        <option value="$PROJECT_DIR$/src/ContactImpl.java" />
         <option value="$PROJECT_DIR$/src/ContactImplTest.java" />
+        <option value="$PROJECT_DIR$/src/ContactImpl.java" />
       </list>
     </option>
   </component>
@@ -678,7 +681,7 @@
       <workItem from="1450866803880" duration="231000" />
       <workItem from="1450955888712" duration="9717000" />
       <workItem from="1451554588677" duration="166000" />
-      <workItem from="1451944987777" duration="4318000" />
+      <workItem from="1451944987777" duration="4857000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -690,7 +693,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20885000" />
+    <option name="totallyTimeSpent" value="21424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1902" y="23" width="1734" height="1057" extended-state="0" />
@@ -1154,25 +1157,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65663475">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#475#476#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49247605">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

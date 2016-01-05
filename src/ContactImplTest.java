@@ -29,9 +29,13 @@ public class ContactImplTest {
 
     @Test
     public void testNotesAccessor() {
-        assertEquals(notes, contact2.addNotes());
+        assertEquals(notes, contact2.getNotes());
     }
 
+    @Test
+    public void testIDAccessor() {
+        assertEquals(note, contact2.getId());
+    }
 
 
 
