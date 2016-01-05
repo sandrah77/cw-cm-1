@@ -27,13 +27,16 @@ public class ContactImplTest {
     }
 
     @Test
-    public void testNotesAccessor(String notes) {
-        ContactImpl contact2 = new ContactImpl("Calling..");
-        assertEquals(notes, contact2.getNotes());
+    public void testNotesAccessor() {
+        ContactImpl contact2 = new ContactImpl(42, "Stephen");
+        assertEquals(42, contact2.getId());
+        assertEquals("Stephen", contact2.getName());
+        assertEquals("", contact2.getNotes());
     }
-
+   /*
     @Test
     public void testIDAccessor() {
-        assertEquals(notes, contact2.getId());
-    }
+        ContactImpl contact2 = new ContactImpl(42);
+        assertEquals(42, contact2.getId());
+    */
 }

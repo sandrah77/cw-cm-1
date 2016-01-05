@@ -5,7 +5,7 @@
 public class ContactImpl implements Contact {
     int Id;
     String name;
-    //String notes;
+    String notes;
     /**
      * Another more restricted constructor which take only two parameters (ID and name)
      *
@@ -22,11 +22,13 @@ public class ContactImpl implements Contact {
         this.name = name;
         this.notes = "";
     }
-    
+
+    @Override
     public int getId() {
-        return this.id;
+        return this.Id;
     }
 
+    @Override
     public String getName() {
         return this.name;
     }
