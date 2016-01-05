@@ -27,5 +27,12 @@ public class ContactImplTest {
         assertEquals(name, contact1.getName());
     }
 
-    
+    @Test
+    public void testNotesAccessor() {
+        assertEquals(notes, contact2.addNotes());
+    }
+
+
+
+
 }
