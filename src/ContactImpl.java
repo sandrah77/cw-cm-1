@@ -1,10 +1,10 @@
-import java.io.Serializable;
+
 
 /**
  * Created by Alexander on 24/12/2015.
  * This class implements the Contact interface
  */
-public class ContactImpl implements Contact, Serializable {
+public class ContactImpl implements Contact {
    private int Id;
    private String name;
    private String notes;
@@ -22,7 +22,7 @@ public class ContactImpl implements Contact, Serializable {
     public ContactImpl(int Id, String name, String notes){
         this.Id = Id;
         this.name = name;
-        this.notes = "";
+        notes = "";
     }
 
     @Override
@@ -34,4 +34,10 @@ public class ContactImpl implements Contact, Serializable {
     public String getName() {
         return this.name;
     }
+
+    @Override
+    public String getNotes() {
+        return this.notes;
+    }
+
 }
