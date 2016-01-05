@@ -1,11 +1,13 @@
+import java.io.Serializable;
+
 /**
  * Created by Alexander on 24/12/2015.
  * This class implements the Contact interface
  */
-public class ContactImpl implements Contact {
-    int Id;
-    String name;
-    String notes;
+public class ContactImpl implements Contact, Serializable {
+   private int Id;
+   private String name;
+   private String notes;
     /**
      * Another more restricted constructor which take only two parameters (ID and name)
      *
