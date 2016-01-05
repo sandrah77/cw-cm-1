@@ -3,8 +3,8 @@
  * This class implements the Contact interface
  */
 public class ContactImpl {
-    int id;
-    String name;
+    int Id;
+    String2 name;
     String notes;
 
     /**
@@ -15,15 +15,12 @@ public class ContactImpl {
      * If any of the references/pointers passed as parameters to the constructor are null,
      * a NullPointerException will be thrown.
      *
-     * @param id the contact id
+     * @param Id the contact id
      * @param name the contact name
      */
-    ContactImpl(int id, String name){
-        this.id = id;
+    public ContactImpl(int Id, String name, String notes) {
+        this.Id = Id;
         this.name = name;
         notes = "";
-
     }
-
-
 }

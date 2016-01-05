@@ -6,13 +6,9 @@ import static org.junit.Assert.*;
  *
  */
 public class ContactImplTest {
-    Contact contact1;
-    Contact contact2;
-    String name;
-    String notes;
-    int id;
 
-    @Before
+
+    /* @Before
     public void initialiseConstructor() {
         name = "Stephen";
         notes = "Paging...";
@@ -20,13 +16,14 @@ public class ContactImplTest {
 
         contact1 = new ContactImpl(name, notes, id);
         contact2 = new ContactImpl(name, notes, id);
-    }
+    */
 
     @Test
     public void testNameAccessor() {
-        assertEquals(name, contact1.getName());
+        Contact contact1 = new ContactImpl(42, "Stephen", "Calling..");
+        assertEquals(3, contact1.getId());
     }
-
+/*
     @Test
     public void testNotesAccessor() {
         assertEquals(notes, contact2.getNotes());
@@ -34,9 +31,7 @@ public class ContactImplTest {
 
     @Test
     public void testIDAccessor() {
-        assertEquals(note, contact2.getId());
+        assertEquals(notes, contact2.getId());
     }
-
-
-
+*/
 }
