@@ -22,11 +22,11 @@ public class ContactImplTest {
 
 
     @Test
-    public void testNameAccessor() {
+    public void testIdAccessor() {
         Contact contact1 = new ContactImpl(42, "Bartholomew", "Calling..");
         assertEquals(42, contact1.getId());
-        assertEquals("Stephen", contact1.getName());
-        assertEquals("Calling..", contact1.getNotes());
+        //assertEquals("Stephen", contact1.getName());
+       //assertEquals("Calling..", contact1.getNotes());
     }
 
    /* @Test

@@ -29,7 +29,7 @@ public class ContactImpl implements Contact {
 
     @Override
     public int getId() {
-        return -1;
+        return this.Id;
     }
 
     @Override
