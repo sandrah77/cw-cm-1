@@ -24,12 +24,12 @@ public class ContactImplTest {
     @Test
     public void testNameAccessor() {
         Contact contact1 = new ContactImpl(42, "Bartholomew", "Calling..");
-        assertEquals(3, contact1.getId());
+        assertEquals(42, contact1.getId());
         assertEquals("Stephen", contact1.getName());
         assertEquals("Calling..", contact1.getNotes());
     }
 
-    @Test
+   /* @Test
     public void testEmptyNotesAccessor() {
         Contact contact2 = new ContactImpl(42, "Andrew");
         assertEquals(42, contact2.getId());
@@ -43,7 +43,7 @@ public class ContactImplTest {
         contact3.addNotes(null);
         assertEquals("Come hither", contact3.getNotes());
     }
-
+    */
     /*
     @Test
     public void testIDAccessor() {
