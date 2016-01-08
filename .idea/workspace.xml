@@ -40,14 +40,16 @@
         <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
               <folding>
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,11 +58,10 @@
       <file leaf-file-name="ContactImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65850145">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.05331412">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
               </folding>
             </state>
@@ -94,8 +95,8 @@
         <option value="$PROJECT_DIR$/src/PastMeeting.java" />
         <option value="$PROJECT_DIR$/src/ContactManager.java" />
         <option value="$PROJECT_DIR$/src/Contact.java" />
-        <option value="$PROJECT_DIR$/src/ContactImpl.java" />
         <option value="$PROJECT_DIR$/src/ContactImplTest.java" />
+        <option value="$PROJECT_DIR$/src/ContactImpl.java" />
       </list>
     </option>
   </component>
@@ -808,7 +809,7 @@
       <workItem from="1451944987777" duration="12210000" />
       <workItem from="1452101741264" duration="1435000" />
       <workItem from="1452119656108" duration="2459000" />
-      <workItem from="1452270165378" duration="4359000" />
+      <workItem from="1452270165378" duration="5195000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -820,12 +821,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 16m 43s.xml">
-      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 18m 50s.xml">
-      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 19m 47s.xml">
       <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
     </history-entry>
@@ -844,19 +839,25 @@
     <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 27m 35s.xml">
       <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNameAccessor - 2016.01.08 at 18h 15m 35s.xml">
-      <configuration name="ContactImplTest.testNameAccessor" configurationId="JUnit" />
+    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 28m 28s.xml">
+      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNotesAccessor - 2016.01.08 at 17h 19m 20s.xml">
-      <configuration name="ContactImplTest.testNotesAccessor" configurationId="JUnit" />
+    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 28m 36s.xml">
+      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 38m 22s.xml">
+      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.08 at 18h 41m 25s.xml">
+      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37030000" />
+    <option name="totallyTimeSpent" value="37866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1915" y="23" width="1440" height="1057" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -986,12 +987,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1311,25 +1314,26 @@
     <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
           <folding>
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65850145">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.05331412">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
           </folding>
         </state>
