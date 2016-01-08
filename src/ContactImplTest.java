@@ -60,11 +60,11 @@ public class ContactImplTest {
 
     @Test
     public void testExceptionConstructorNegativeIdAndEmptyNotes() {
-        Contact contact = new ContactImpl(-1, "Judas", "");
+        Contact contact = new ContactImpl(1, "Judas", "");
         contact.addNotes(null);
      // contact.addNotes("We shall have a feast");
-        assertNull(null, contact.getNotes());
-        assertEquals(-1, contact.getId());
+     // assertNull(null, contact.getNotes());
+        assertEquals(1, contact.getId());
     }
     /*
     @Test
