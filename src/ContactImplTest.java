@@ -111,5 +111,9 @@ public class ContactImplTest {
     public void testNullNameAndNullNotesWithConstructor() {
         Contact contact = new ContactImpl(3, null, null);
     }
-    
+
+    @Test(expected = NullPointerException.class)
+    public void testNegativeIdValuesWithNullNameAndNullNoteWithConstructor() {
+        Contact contact = new ContactImpl(-4,null, null);
+    }
 }
