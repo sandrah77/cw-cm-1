@@ -21,9 +21,7 @@ public class ContactImpl implements Contact {
      * @param name the contact name
      */
     public ContactImpl(int Id, String name){
-        this.Id = Id;
-        this.name = name;
-        notes = "";
+        this(Id, name, "");
     }
 
     /**
