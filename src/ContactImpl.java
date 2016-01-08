@@ -6,7 +6,7 @@
  */
 public class ContactImpl implements Contact {
    private int Id;
-   //private String name;
+   private String name;
    //private String notes;
 
     /**
@@ -21,8 +21,8 @@ public class ContactImpl implements Contact {
      * @param name the contact name
      */
     public ContactImpl(int Id, String name, String notes){
-        this.Id = Id;
-       // this.name = name;
+        //this.Id = Id;
+        this.name = name;
         //notes = "";
     }
 

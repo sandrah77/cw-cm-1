@@ -8,25 +8,23 @@ import static org.junit.Assert.*;
 public class ContactImplTest {
 
 
-    /* @Before
-    public void initialiseConstructor() {
-        name = "Stephen";
-        notes = "Paging...";
-        id = 42;
-
-        contact1 = new ContactImpl(name, notes, id);
-        contact2 = new ContactImpl(name, notes, id);
-    */
-
-
-
+    @BeforeClass
+    public static void runningNotification() {
+        System.out.println ("Running tests...");
+    }
 
     @Test
     public void testIdAccessor() {
-        Contact contact1 = new ContactImpl(42, "Bartholomew", "Calling..");
-        assertEquals(42, contact1.getId());
-        //assertEquals("Stephen", contact1.getName());
-       //assertEquals("Calling..", contact1.getNotes());
+        Contact contact = new ContactImpl(0, "Bartholomew", "Calling..");
+        assertEquals(0, contact.getId());
+      //assertEquals("Stephen", contact1.getName());
+      //assertEquals("Calling..", contact1.getNotes());
+    }
+
+    @Test
+    public void testStringAccessor() {
+        Contact contact2 = new ContactImpl(42, "Jude", "Let's drink wine and break bread");
+        assertEquals(42, contact2.getName());
     }
 
    /* @Test
