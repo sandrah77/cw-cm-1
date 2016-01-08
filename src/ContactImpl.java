@@ -6,7 +6,7 @@
  */
 public class ContactImpl implements Contact {
    private int Id;
-   private String name;
+   private String name = "Jude";
    //private String notes;
 
     /**
@@ -34,7 +34,7 @@ public class ContactImpl implements Contact {
 
     @Override
     public String getName() {
-        return null;
+        return this.name;
     }
 
     @Override
