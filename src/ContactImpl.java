@@ -44,7 +44,10 @@ public class ContactImpl implements Contact {
 
     @Override
     public void addNotes(String note) {
-        notes += note; // new note is appended to the earlier note
+        if (note != null) {
+            this.notes += '\n';
+        }
+        this.notes += note; // new note is appended to the earlier note after new line.
     }
 
 }
