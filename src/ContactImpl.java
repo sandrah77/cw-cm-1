@@ -20,11 +20,14 @@ public class ContactImpl implements Contact {
      * @param Id the contact id
      * @param name the contact name
      */
-    public ContactImpl(int Id, String name, String notes){
+    public ContactImpl(int Id, String name){
         this.Id = Id;
         this.name = name;
-        this.notes = notes;
+        notes = "";
     }
+
+    //public ContactImpl(int Id, String name, String notes)  throws IllegalArgumentExceptionException {
+
 
 
     @Override
@@ -47,7 +50,7 @@ public class ContactImpl implements Contact {
         if (note != null) {
             this.notes += '\n';
         }
-        this.notes += note; // new note is appended to the earlier note after new line.
+        this.notes += note; // new note is appended to the earlier note.
     }
 
 }

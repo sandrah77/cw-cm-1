@@ -15,7 +15,7 @@ public class ContactImplTest {
 
     @Test
     public void testIdAccessor() {
-        Contact testContact = new ContactImpl(0, "Bartholomew", "Calling..");
+        Contact testContact = new ContactImpl(0, "Bartholomew");
         assertEquals(0, testContact.getId());
       //assertEquals("Stephen", contact.getName());
       //assertEquals("Calling..", contact.getNotes());
@@ -23,25 +23,31 @@ public class ContactImplTest {
 
     @Test
     public void testNameAccessor() {
-        Contact testContact = new ContactImpl(42, "Jude", "Let's drink wine and break bread");
+        Contact testContact = new ContactImpl(42, "Jude");
         assertEquals("Jude", testContact.getName());
     }
 
     @Test
     public void testNotesAccessor() {
-        Contact testContact = new ContactImpl(42, "Jude", "Let's drink wine and break bread");
+        Contact testContact = new ContactImpl(42, "Jude");
         assertEquals("Let's drink wine and break bread", testContact.getNotes());
     }
 
     @Test
     public void testAddNotesMutator() {
-        Contact testContact = new ContactImpl(13, "Judas", "Let's drink wine and break bread");
+        Contact testContact = new ContactImpl(13, "Judas");
         testContact.addNotes("Let the final meal commence brethren..");
         assertEquals("Let's drink wine and break bread\nLet the final meal commence brethren..", testContact.getNotes());
     }
 
-    @Ignore
+    @Test
     public void testAccessorMethodsWithConstructor() {
+        Contact testContact = new ContactImpl(12, "John");
+        testContact.addNotes("Do you have any cool tricks? Try turn that water into something else!");
+        assertEquals(12, testContact.getId());
+        assertEquals("John",testContact.getName());
+        assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure..", testContact.getNotes());
+
 
     }
 
