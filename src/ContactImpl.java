@@ -23,7 +23,7 @@ public class ContactImpl implements Contact {
     public ContactImpl(int Id, String name, String notes){
         this.Id = Id;
         this.name = name;
-        notes = "";
+        this.notes = "Let's drink wine and break bread";
     }
 
 
@@ -39,10 +39,11 @@ public class ContactImpl implements Contact {
 
     @Override
     public String getNotes() {
-        return null;
+        return this.notes;
     }
 
     @Override
-    public void addNotes(String note) { }
+    public void addNotes(String note) {
+    }
 
 }
