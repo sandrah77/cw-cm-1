@@ -41,7 +41,7 @@ public class ContactImplTest {
     }
 
     @Test
-    public void testAccessorMethodsWithConstructor() {
+    public void testExceptionConstructorWithAllParameters() {
         Contact testContact = new ContactImpl(12, "John", "Do you have any cool tricks? Try turn that water into something else!");
         testContact.addNotes("Sure..");
         assertEquals(12, testContact.getId());
@@ -51,8 +51,7 @@ public class ContactImplTest {
 
     }
 
-
-   /* @Test
+    @Test
     public void testEmptyNotesAccessor() {
         Contact contact2 = new ContactImpl(42, "Andrew");
         assertEquals(42, contact2.getId());
