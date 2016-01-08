@@ -82,10 +82,9 @@ public class ContactImplTest {
 
     @Test
     public void testSimilarObjectsCreated() {
-        Contact contact = new ContactImpl(1, "Andrew","");
-        Contact contact2 = new ContactImpl(2, "Jude","Hi everyone!");
+        Contact contact = new ContactImpl(1, "Andrew", "");
+        Contact contact2 = new ContactImpl(2, "Jude", "Hi everyone!");
         assertSame("The objects are the same", contact, contact);
-
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -94,8 +93,23 @@ public class ContactImplTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void testNegativeIdValuesWithRestrictedConstructor() {
+    public void testNegativeIdValuesWithRestrictedConstructorToGeneral() {
         Contact contact = new ContactImpl(-5, "Andrew");
     }
 
+    @Test(expected = NullPointerException.class)
+    public void testNullNotesWithConstructor() {
+        Contact contact = new ContactImpl(4, "Jesus" , null);
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void testNullNameWithConstructor() {
+        Contact contact = new ContactImpl(4, null, "Welcome to The Last Supper Apostles");
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void testNullNameAndNullNotesWithConstructor() {
+        Contact contact = new ContactImpl(3, null, null);
+    }
+    
 }
