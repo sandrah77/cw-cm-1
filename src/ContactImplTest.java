@@ -15,16 +15,16 @@ public class ContactImplTest {
 
     @Test
     public void testIdAccessor() {
-        Contact contact = new ContactImpl(0, "Bartholomew", "Calling..");
-        assertEquals(0, contact.getId());
-      //assertEquals("Stephen", contact1.getName());
-      //assertEquals("Calling..", contact1.getNotes());
+        Contact testContact = new ContactImpl(0, "Bartholomew", "Calling..");
+        assertEquals(0, testContact.getId());
+      //assertEquals("Stephen", contact.getName());
+      //assertEquals("Calling..", contact.getNotes());
     }
 
     @Test
     public void testStringAccessor() {
-        Contact contact2 = new ContactImpl(42, "Jude", "Let's drink wine and break bread");
-        assertEquals(42, contact2.getName());
+        Contact testContact = new ContactImpl(42, "Jude", "Let's drink wine and break bread");
+        assertEquals("Jude", testContact.getName());
     }
 
    /* @Test
