@@ -80,6 +80,14 @@ public class ContactImplTest {
         assertEquals(1, contact.getId());
     }
 
+    @Test
+    public void testSimilarObjectsCreated() {
+        Contact contact = new ContactImpl(1, "Andrew","");
+        Contact contact2 = new ContactImpl(2, "Jude","Hi everyone!");
+        assertSame("The objects are the same", contact, contact2);
+
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void testNegativeIdValuesWithConstructor() {
         Contact contact = new ContactImpl(-5, "Andrew", "Shalom");
@@ -89,4 +97,5 @@ public class ContactImplTest {
     public void testNegativeIdValuesWithRestrictedConstructor() {
         Contact contact = new ContactImpl(-5, "Andrew");
     }
+
 }
