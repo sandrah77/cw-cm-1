@@ -34,9 +34,8 @@ public class ContactImpl implements Contact, java.io.Serializable {
     public ContactImpl(int Id, String name, String notes)  throws IllegalArgumentException {
         if ((name == null) || (notes == null)) {
             throw new NullPointerException("Invalid id, name and notes. Please enter values again");
-        if (Id <= 0) {
+        } else if (Id <= 0) {
             throw new IllegalArgumentException("Contact ID must be greater than 0");
-            }
         } else {
             this.Id = Id;
             this.name = name;

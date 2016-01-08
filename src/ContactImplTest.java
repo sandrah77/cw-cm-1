@@ -124,5 +124,4 @@ public class ContactImplTest {
     public void testIAExceptionWithNegativeIdValuesWithNullNameAndNullNotesInConstructor() {
         Contact contact = new ContactImpl(-3,null, null);
     }
-
 }
