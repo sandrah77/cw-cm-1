@@ -7,18 +7,31 @@ import static org.junit.Assert.*;
  */
 public class ContactImplTest {
 
+    // private Contact testContact;
 
     @BeforeClass
     public static void runningNotification() {
-        System.out.println ("Running tests...");
+        System.out.println("Running tests...");
     }
+
+   /* @Before
+   public void init() {
+    // testContact = new ContactImpl();
+   }
+   */
+
+   /* @After
+    public void tearDown() {
+        testContact = null;
+    }
+    */
 
     @Test
     public void testIdAccessor() {
         Contact testContact = new ContactImpl(0, "Bartholomew");
         assertEquals(0, testContact.getId());
-      //assertEquals("Stephen", contact.getName());
-      //assertEquals("Calling..", contact.getNotes());
+        //assertEquals("Bartholomew", contact.getName());
+        //assertEquals("Calling..", contact.getNotes());
     }
 
     @Test
@@ -44,8 +57,8 @@ public class ContactImplTest {
     public void testExceptionConstructorWithAllParameters() {
         Contact testContact = new ContactImpl(12, "John", "Do you have any cool tricks? Try turn that water into something else!");
         testContact.addNotes("Sure..");
-        assertEquals(12, testContact.getId());
-        assertEquals("John",testContact.getName());
+        // assertEquals(12, testContact.getId());
+        // assertEquals("John",testContact.getName());
         assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure..", testContact.getNotes());
     }
 
@@ -58,18 +71,17 @@ public class ContactImplTest {
         assertEquals("Come hither\nWe shall have a feast", contact.getNotes());
     }
 
-    @Test
+    @Ignore
     public void testExceptionConstructorNegativeIdAndEmptyNotes() {
         Contact contact = new ContactImpl(1, "Judas", "");
         contact.addNotes(null);
-     // contact.addNotes("We shall have a feast");
-     // assertNull(null, contact.getNotes());
+        // contact.addNotes("We shall have a feast");
+        // assertNull(null, contact.getNotes());
         assertEquals(1, contact.getId());
     }
-    /*
-    @Test
-    public void testIDAccessor() {
-        ContactImpl contact2 = new ContactImpl(42);
-        assertEquals(42, contact2.getId());
-    */
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testNegativeIdValuesWithConstructor() {
+        ContactImpl contact = new ContactImpl(5, "Andrew", "Shalom");
+    }
 }
