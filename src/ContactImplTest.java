@@ -1,4 +1,7 @@
 import org.junit.*;
+
+import java.util.IllegalFormatCodePointException;
+
 import static org.junit.Assert.*;
 
 
@@ -113,7 +116,13 @@ public class ContactImplTest {
     }
 
     @Test(expected = NullPointerException.class)
-    public void testNegativeIdValuesWithNullNameAndNullNoteWithConstructor() {
-        Contact contact = new ContactImpl(-4,null, null);
+    public void testNegativeIdValuesWithNullNameAndNullNotesInConstructor() {
+        Contact contact = new ContactImpl(-4, null, null);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testIAExceptionWithNegativeIdValuesWithNullNameAndNullNotesInConstructor() {
+        Contact contact = new ContactImpl(-3,null, null);
+    }
+
 }
