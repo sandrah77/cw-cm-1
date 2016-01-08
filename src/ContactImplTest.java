@@ -58,9 +58,12 @@ public class ContactImplTest {
     }
 
     @Test
-    public void testExceptionConstructorWithNullValues() {
-        Contact contact = new ContactImpl(1, "Judas", null);
-        assertEquals("Come hither", contact.getNotes());
+    public void testExceptionConstructorWithNotesAndNullNotes() {
+        Contact contact = new ContactImpl(1, "Judas", "Come hither");
+        contact.addNotes(null);
+        contact.addNotes("We shall have a feast");
+        contact.addNotes(null);
+        assertEquals("Come hither\nWe shall have a feast", contact.getNotes());
     }
 
     /*
