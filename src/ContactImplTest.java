@@ -49,14 +49,6 @@ public class ContactImplTest {
         assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure..", testContact.getNotes());
     }
 
-    @Ignore
-    public void testEmptyNotesAccessor() {
-        Contact contact2 = new ContactImpl(42, "Andrew");
-        assertEquals(42, contact2.getId());
-        assertEquals("", contact2.getName());
-        assertEquals("", contact2.getNotes());
-    }
-
     @Test
     public void testExceptionConstructorWithNotesAndNullNotes() {
         Contact contact = new ContactImpl(1, "Judas", "Come hither");
@@ -66,6 +58,14 @@ public class ContactImplTest {
         assertEquals("Come hither\nWe shall have a feast", contact.getNotes());
     }
 
+    @Test
+    public void testExceptionConstructorNegativeIdAndNullNotes() {
+        Contact contact = new ContactImpl(-1, "Judas", null);
+        contact.addNotes(null);
+     // contact.addNotes("We shall have a feast");
+        assertNull(null, contact.getNotes());
+        assertEquals(-1, contact.getId());
+    }
     /*
     @Test
     public void testIDAccessor() {
