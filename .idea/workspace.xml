@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactImplTest.java" afterPath="$PROJECT_DIR$/src/ContactImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactImpl.java" afterPath="$PROJECT_DIR$/src/ContactImpl.java" />
     </list>
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="e#1389#1390#0" expanded="true" />
                 <element signature="e#1419#1420#0" expanded="true" />
@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6757925">
-              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
@@ -93,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/PastMeeting.java" />
         <option value="$PROJECT_DIR$/src/ContactManager.java" />
         <option value="$PROJECT_DIR$/src/Contact.java" />
-        <option value="$PROJECT_DIR$/src/ContactImpl.java" />
         <option value="$PROJECT_DIR$/src/ContactImplTest.java" />
+        <option value="$PROJECT_DIR$/src/ContactImpl.java" />
       </list>
     </option>
   </component>
@@ -807,7 +807,7 @@
       <workItem from="1451944987777" duration="12210000" />
       <workItem from="1452101741264" duration="1435000" />
       <workItem from="1452119656108" duration="2459000" />
-      <workItem from="1452270165378" duration="11144000" />
+      <workItem from="1452270165378" duration="11865000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -819,9 +819,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactImplTest_testAccessorMethodsWithConstructor - 2016.01.08 at 19h 47m 06s.xml">
-      <configuration name="ContactImplTest.testAccessorMethodsWithConstructor" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContactImplTest_testAccessorMethodsWithConstructor - 2016.01.08 at 19h 56m 54s.xml">
       <configuration name="ContactImplTest.testAccessorMethodsWithConstructor" configurationId="JUnit" />
     </history-entry>
@@ -832,6 +829,12 @@
       <configuration name="ContactImplTest.testExceptionConstructorWithAllParameters" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ContactImplTest_testExceptionConstructorWithNotesAndNullNotes - 2016.01.08 at 20h 34m 40s.xml">
+      <configuration name="ContactImplTest.testExceptionConstructorWithNotesAndNullNotes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactImplTest_testExceptionConstructorWithNotesAndNullNotes - 2016.01.08 at 20h 36m 10s.xml">
+      <configuration name="ContactImplTest.testExceptionConstructorWithNotesAndNullNotes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactImplTest_testExceptionConstructorWithNotesAndNullNotes - 2016.01.08 at 20h 47m 33s.xml">
       <configuration name="ContactImplTest.testExceptionConstructorWithNotesAndNullNotes" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ContactImplTest_testExceptionConstructorWithNullNotes - 2016.01.08 at 20h 27m 03s.xml">
@@ -846,12 +849,9 @@
     <history-entry file="ContactImplTest_testExceptionConstructorWithNullValues - 2016.01.08 at 20h 25m 49s.xml">
       <configuration name="ContactImplTest.testExceptionConstructorWithNullValues" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testIdAccessor - 2016.01.08 at 19h 30m 22s.xml">
-      <configuration name="ContactImplTest.testIdAccessor" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43815000" />
+    <option name="totallyTimeSpent" value="44536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1915" y="23" width="1472" height="1057" extended-state="0" />
@@ -864,7 +864,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1819407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25181347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25181347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08355795" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24405594" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1310,7 +1310,7 @@
     <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="e#1389#1390#0" expanded="true" />
             <element signature="e#1419#1420#0" expanded="true" />
@@ -1325,7 +1325,7 @@
     <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6757925">
-          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />

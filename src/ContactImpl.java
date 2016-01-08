@@ -64,9 +64,10 @@ public class ContactImpl implements Contact {
     @Override
     public void addNotes(String note) {
         if (note != null) {
-            this.notes += '\n';
+            if (this.notes.equals("")) {
+                    this.notes += '\n'; // new line if an empty string is given
+                }
+            this.notes += '\n' + note; // append new note to the original notes
         }
-        this.notes += note; // new note is appended to the earlier note.
     }
-
 }
