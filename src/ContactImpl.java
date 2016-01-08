@@ -4,7 +4,7 @@
  * Created by Alexander on 24/12/2015.
  * This class implements the Contact interface
  */
-public class ContactImpl implements Contact {
+public class ContactImpl implements Contact, java.io.Serializable {
    private int Id;
    private String name;
    private String notes;

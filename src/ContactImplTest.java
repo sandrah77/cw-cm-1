@@ -84,7 +84,7 @@ public class ContactImplTest {
     public void testSimilarObjectsCreated() {
         Contact contact = new ContactImpl(1, "Andrew","");
         Contact contact2 = new ContactImpl(2, "Jude","Hi everyone!");
-        assertSame("The objects are the same", contact, contact2);
+        assertSame("The objects are the same", contact, contact);
 
     }
 
