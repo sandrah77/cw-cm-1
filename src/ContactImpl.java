@@ -26,7 +26,24 @@ public class ContactImpl implements Contact {
         notes = "";
     }
 
-    //public ContactImpl(int Id, String name, String notes)  throws IllegalArgumentExceptionException {
+    /**
+     *
+     * @param Id
+     * @param name
+     * @param notes
+     * @throws IllegalArgumentExceptionException
+     */
+    public ContactImpl(int Id, String name, String notes)  throws IllegalArgumentExceptionException {
+        if ((name == null) || (notes == null)) {
+            throw new NullPointerException("Invalid id, name and notes. Please enter values again");
+        } else if (Id <= 0) {
+            throw new NullPointerException("Contact ID must be greater than 0");
+        } else {
+            this.Id = Id;
+            this.name = name;
+            this.notes = notes;
+        }
+    }
 
 
 
