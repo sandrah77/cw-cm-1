@@ -33,6 +33,18 @@ public class ContactImplTest {
         assertEquals("Let's drink wine and break bread", testContact.getNotes());
     }
 
+    @Test
+    public void testAddNotesMutator() {
+        Contact testContact = new ContactImpl(13, "Judas", "Let's drink wine and break bread");
+        testContact.addNotes("Let the final meal commence brethren..");
+        assertEquals("Let's drink wine and break", testContact.getNotes());
+    }
+
+    @Ignore
+    public void testAccessorMethodsWithConstructor() {
+
+    }
+
 
    /* @Test
     public void testEmptyNotesAccessor() {
