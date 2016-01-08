@@ -42,8 +42,8 @@ public class ContactImplTest {
 
     @Test
     public void testAccessorMethodsWithConstructor() {
-        Contact testContact = new ContactImpl(12, "John");
-        testContact.addNotes("Do you have any cool tricks? Try turn that water into something else!");
+        Contact testContact = new ContactImpl(12, "John", "Do you have any cool tricks? Try turn that water into something else!");
+        testContact.addNotes("Sure..");
         assertEquals(12, testContact.getId());
         assertEquals("John",testContact.getName());
         assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure..", testContact.getNotes());

@@ -31,13 +31,13 @@ public class ContactImpl implements Contact {
      * @param Id
      * @param name
      * @param notes
-     * @throws IllegalArgumentExceptionException
+     * @throws IllegalArgumentException
      */
-    public ContactImpl(int Id, String name, String notes)  throws IllegalArgumentExceptionException {
+    public ContactImpl(int Id, String name, String notes)  throws IllegalArgumentException {
         if ((name == null) || (notes == null)) {
             throw new NullPointerException("Invalid id, name and notes. Please enter values again");
         } else if (Id <= 0) {
-            throw new NullPointerException("Contact ID must be greater than 0");
+            throw new IllegalArgumentException("Contact ID must be greater than 0");
         } else {
             this.Id = Id;
             this.name = name;
