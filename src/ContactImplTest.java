@@ -82,6 +82,6 @@ public class ContactImplTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testNegativeIdValuesWithConstructor() {
-        ContactImpl contact = new ContactImpl(5, "Andrew", "Shalom");
+        Contact contact = new ContactImpl(-5, "Andrew", "Shalom");
     }
 }
