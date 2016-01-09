@@ -39,7 +39,7 @@ public class PastMeetingImplTest {
     public void testIdAccessorMethod() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         PastMeeting pastMeet = new PastMeetingImpl(2, date, contacts, "Notes");
-        assertEquals(4, pastMeet.getId());
+        assertEquals(2, pastMeet.getId());
 
     }
 
