@@ -49,9 +49,21 @@ public class PastMeetingImplTest {
     public void testDateAccessorMethod() {
         contacts.add(contact1);
         contacts.add(contact2);
-        Calendar date = new GregorianCalendar(2015, 5, 45);
+        Calendar date = new GregorianCalendar(2015, 5, 14);
         PastMeeting pastMeet = new PastMeetingImpl(2, date, contacts, "See you then");
         assertEquals(date, pastMeet.getDate());
+    }
 
+    @Test
+    public void testContactsGetterMethod() {
+        contacts.add(contact1);
+        contacts.add(contact2);
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeeting pastMeeting = new PastMeetingImpl(5, date, contacts, "Should we take the time machine?");
+        for(Contact contacts: pastMeeting.getContacts()) {
+            System.out.println("\t\t" + contacts.getId() + "\t" + contacts.getName());
+        }
+        assertEquals(2, pastMeeting.getContacts().size());
+        assertTrue(pastMeeting.getContacts().containsAll(contacts));
     }
 }
