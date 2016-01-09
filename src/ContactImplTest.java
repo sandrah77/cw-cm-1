@@ -51,7 +51,7 @@ public class ContactImplTest {
 
     @Test
     public void testAddNotesMutator() {
-        Contact testContact = new ContactImpl(13, "Judas");
+        Contact testContact = new ContactImpl(13, "Judas","Let's drink wine and break bread");
         testContact.addNotes("Let the final meal commence brethren..");
         assertEquals("Let's drink wine and break bread\nLet the final meal commence brethren..", testContact.getNotes());
     }
