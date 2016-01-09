@@ -19,9 +19,12 @@ public class PastMeetingImpl extends MeetingImpl implements PastMeeting {
      * @param date the date of the meeting
      * @param contacts the list of people that attended the meeting
      */
-    public PastMeetingImpl(int Id, Calendar date, Set<Contact> contacts) throws IllegalArgumentException {
+    public PastMeetingImpl(int Id, Calendar date, Set<Contact> contacts, String notes) throws IllegalArgumentException {
         super(Id, date, contacts);
+
     }
+
+
 
 
     /**

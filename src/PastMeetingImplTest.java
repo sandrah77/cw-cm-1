@@ -2,6 +2,9 @@
  * Created by Alexander on 08/01/2016.
  */
 import org.junit.*;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Set;
 import java.util.HashSet;
 
@@ -27,6 +30,13 @@ public class PastMeetingImplTest {
         contacts.add(new ContactImpl(5, "James, the elder"));
     }
 
+    @Test
+    public void testIdAccessorMethod() {
+        Calendar date = new GregorianCalendar(194, 0, 13);
+        MockPastMeeting past = new PastMeetingImpl(3, date, contacts);
+
+
+    }
 
 
 
