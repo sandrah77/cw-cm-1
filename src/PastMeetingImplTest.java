@@ -61,9 +61,19 @@ public class PastMeetingImplTest {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         PastMeeting pastMeeting = new PastMeetingImpl(5, date, contacts, "Should we take the time machine?");
         for(Contact contacts: pastMeeting.getContacts()) {
-            System.out.println("\t\t" + contacts.getId() + "\t" + contacts.getName());
+            System.out.println("\n\t\t" + contacts.getId() + "\t" + contacts.getName());
         }
         assertEquals(2, pastMeeting.getContacts().size());
         assertTrue(pastMeeting.getContacts().containsAll(contacts));
     }
+
+    @Test
+    public void testNotesGetterMethod() {
+        contacts.add(contact1);
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeeting pastMeet = new PastMeetingImpl(5, date, contacts, "All is swell");
+        assertEquals("All is well", pastMeet.getNotes());
+    }
+
+
 }
