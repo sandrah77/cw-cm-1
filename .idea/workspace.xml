@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MockContact.java" afterPath="$PROJECT_DIR$/src/MockContact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PastMeetingImpl.java" afterPath="$PROJECT_DIR$/src/PastMeetingImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PastMeetingImplTest.java" afterPath="$PROJECT_DIR$/src/PastMeetingImplTest.java" />
     </list>
     <ignored path="cw-cm.iws" />
@@ -874,7 +871,7 @@
       <workItem from="1452101741264" duration="1435000" />
       <workItem from="1452119656108" duration="2459000" />
       <workItem from="1452270165378" duration="23662000" />
-      <workItem from="1452345877979" duration="11936000" />
+      <workItem from="1452345877979" duration="11991000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -891,9 +888,6 @@
     </history-entry>
     <history-entry file="PastMeetingImplTest - 2016.01.09 at 22h 29m 58s.xml">
       <configuration name="PastMeetingImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 00m 04s.xml">
-      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 00m 46s.xml">
       <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
@@ -916,9 +910,12 @@
     <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 37m 39s.xml">
       <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 38m 35s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68269000" />
+    <option name="totallyTimeSpent" value="68324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1915" y="23" width="1472" height="1057" extended-state="0" />

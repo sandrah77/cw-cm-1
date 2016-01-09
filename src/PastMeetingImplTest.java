@@ -42,7 +42,7 @@ public class PastMeetingImplTest {
         contacts.add(contact3);
         Calendar date = new GregorianCalendar(2015, 5, 14);
         PastMeeting pastMeet = new PastMeetingImpl(3, date, contacts, "Notes");
-        assertEquals(4, pastMeet.getId());
+        assertEquals(3, pastMeet.getId());
     }
 
 
