@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MockContact.java" afterPath="$PROJECT_DIR$/src/MockContact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PastMeetingImpl.java" afterPath="$PROJECT_DIR$/src/PastMeetingImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PastMeetingImplTest.java" afterPath="$PROJECT_DIR$/src/PastMeetingImplTest.java" />
     </list>
     <ignored path="cw-cm.iws" />
@@ -29,12 +32,12 @@
         <entry file="file://$PROJECT_DIR$/src/PastMeetingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding>
-                <element signature="e#0#1109#0" expanded="true" />
+                <element signature="e#0#1074#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +46,8 @@
       <file leaf-file-name="PastMeetingImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PastMeetingImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69740635">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.82132566">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -55,29 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MockContact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MockContact.java">
+      <file leaf-file-name="MeetingImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MeetingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
+      <file leaf-file-name="MockContact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MockContact.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="43" selection-end-column="5" />
-              <folding />
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/MockPastMeeting.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
@@ -130,6 +135,9 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -142,9 +150,9 @@
         <option value="$PROJECT_DIR$/src/MeetingImplTest.java" />
         <option value="$PROJECT_DIR$/src/ContactImplTest.java" />
         <option value="$PROJECT_DIR$/src/MockPastMeeting.java" />
+        <option value="$PROJECT_DIR$/src/MockContact.java" />
         <option value="$PROJECT_DIR$/src/MeetingImpl.java" />
         <option value="$PROJECT_DIR$/src/PastMeetingImpl.java" />
-        <option value="$PROJECT_DIR$/src/MockContact.java" />
         <option value="$PROJECT_DIR$/src/PastMeetingImplTest.java" />
       </list>
     </option>
@@ -260,27 +268,6 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager" selected="JUnit.PastMeetingImplTest.testIdAccessorMethod">
-    <configuration default="false" name="ContactImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="cw-cm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContactImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="ContactImplTest.testIdAccessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="cw-cm" />
@@ -353,6 +340,27 @@
       <option name="MAIN_CLASS_NAME" value="PastMeetingImplTest" />
       <option name="METHOD_NAME" value="testIdAccessorMethod" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PastMeetingImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="cw-cm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PastMeetingImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -821,19 +829,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ContactImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testIdAccessor" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testNotesAccessor" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testAddNotesMutator" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIdAccessorMethod" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testIdAccessor" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testNotesAccessor" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testAddNotesMutator" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIdAccessorMethod" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIdAccessorMethod" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testAddNotesMutator" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testNotesAccessor" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testIdAccessor" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ContactImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testAddNotesMutator" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testNotesAccessor" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ContactImplTest.testIdAccessor" />
       </list>
     </recent_temporary>
   </component>
@@ -866,7 +874,7 @@
       <workItem from="1452101741264" duration="1435000" />
       <workItem from="1452119656108" duration="2459000" />
       <workItem from="1452270165378" duration="23662000" />
-      <workItem from="1452345877979" duration="8089000" />
+      <workItem from="1452345877979" duration="11936000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -878,67 +886,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.09 at 13h 31m 40s.xml">
-      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest - 2016.01.09 at 22h 24m 29s.xml">
+      <configuration name="PastMeetingImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testAddNotesMutator - 2016.01.09 at 13h 32m 22s.xml">
-      <configuration name="ContactImplTest.testAddNotesMutator" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest - 2016.01.09 at 22h 29m 58s.xml">
+      <configuration name="PastMeetingImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNegativeIdValuesWithNullNameAndNullNoteWithConstructor - 2016.01.08 at 22h 29m 37s.xml">
-      <configuration name="ContactImplTest.testNegativeIdValuesWithNullNameAndNullNoteWithConstructor" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 00m 04s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNotesAccessor - 2016.01.09 at 13h 28m 44s.xml">
-      <configuration name="ContactImplTest.testNotesAccessor" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 00m 46s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNotesAccessor - 2016.01.09 at 13h 30m 12s.xml">
-      <configuration name="ContactImplTest.testNotesAccessor" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 02m 18s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNotesAccessor - 2016.01.09 at 13h 30m 51s.xml">
-      <configuration name="ContactImplTest.testNotesAccessor" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 07m 53s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNullNameAndNullNotesWithConstructor - 2016.01.08 at 22h 26m 05s.xml">
-      <configuration name="ContactImplTest.testNullNameAndNullNotesWithConstructor" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 08m 09s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNullNameWithRestrictedConstructorToGeneral - 2016.01.08 at 22h 23m 56s.xml">
-      <configuration name="ContactImplTest.testNullNameWithRestrictedConstructorToGeneral" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 30m 10s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactImplTest_testNullNotesWithRestrictedConstructorToGeneral - 2016.01.08 at 22h 23m 51s.xml">
-      <configuration name="ContactImplTest.testNullNotesWithRestrictedConstructorToGeneral" configurationId="JUnit" />
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 35m 11s.xml">
+      <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 17h 22m 42s.xml">
+    <history-entry file="PastMeetingImplTest_testIdAccessorMethod - 2016.01.09 at 22h 37m 39s.xml">
       <configuration name="PastMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64422000" />
+    <option name="totallyTimeSpent" value="68269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1915" y="23" width="1472" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1819407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25181347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08355795" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1819407" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25181347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08355795" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24405594" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1270,14 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1347,41 +1348,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MeetingImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41066283">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="43" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.86455333">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PastMeetingImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1109#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-          </folding>
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MockPastMeeting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
@@ -1399,30 +1393,45 @@
     <entry file="file://$PROJECT_DIR$/src/MockContact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContactImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/MeetingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="33" />
-          <folding />
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PastMeetingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#1074#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PastMeetingImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69740635">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.82132566">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />

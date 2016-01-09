@@ -37,10 +37,12 @@ public class PastMeetingImplTest {
 
     @Test
     public void testIdAccessorMethod() {
+        contacts.add(contact1);
+        contacts.add(contact2);
+        contacts.add(contact3);
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        PastMeeting pastMeet = new PastMeetingImpl(2, date, contacts, "Notes");
-        assertEquals(2, pastMeet.getId());
-
+        PastMeeting pastMeet = new PastMeetingImpl(3, date, contacts, "Notes");
+        assertEquals(4, pastMeet.getId());
     }
 
 

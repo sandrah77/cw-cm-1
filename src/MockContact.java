@@ -5,7 +5,7 @@ public class MockContact implements Contact {
 
     @Override
     public int getId() {
-        return -1;
+        return 4;
     }
 
     @Override
