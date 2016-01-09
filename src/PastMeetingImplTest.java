@@ -50,7 +50,7 @@ public class PastMeetingImplTest {
         contacts.add(contact1);
         contacts.add(contact2);
         Calendar date = new GregorianCalendar(2015, 5, 45);
-        PastMeeting pastMeet = new PastMeetingImpl(2, null, contacts, "See you then");
+        PastMeeting pastMeet = new PastMeetingImpl(2, date, contacts, "See you then");
         assertEquals(date, pastMeet.getDate());
 
     }
