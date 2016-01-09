@@ -2,7 +2,7 @@
  * Created by Alexander on 08/01/2016.
  */
 import org.junit.*;
-
+import static org.junit.Assert.*;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Set;
@@ -11,10 +11,10 @@ import java.util.HashSet;
 
 public class PastMeetingImplTest {
 
-    private Set<ContactImpl> contacts;
-    private ContactImpl contact1;
-    private ContactImpl contact2;
-    private ContactImpl contact3;
+    private Set<Contact> contacts;
+    private Contact contact1;
+    private Contact contact2;
+    private Contact contact3;
 
 
     @BeforeClass
@@ -24,21 +24,24 @@ public class PastMeetingImplTest {
 
     @Before
     public void init() {
-        contacts = new HashSet<ContactImpl>();
-        contacts.add(new ContactImpl(1, "Matthew"));
-        contacts.add(new ContactImpl(3, "Philip"));
-        contacts.add(new ContactImpl(5, "James, the elder"));
+      //contacts = new HashSet<ContactImpl>();
+      //contacts.add(new ContactImpl(1, "Matthew"));
+      //contacts.add(new ContactImpl(3, "Philip"));
+      //contacts.add(new ContactImpl(5, "James, the elder"));
+      contact1 = new MockContact();
+      contact2 = new MockContact();
+      contact3 = new MockContact();
+      contacts = new HashSet<Contact>();
+
     }
 
     @Test
     public void testIdAccessorMethod() {
-        Calendar date = new GregorianCalendar(194, 0, 13);
-        MockPastMeeting past = new PastMeetingImpl(3, date, contacts);
-
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeeting pastMeet = new PastMeetingImpl(2, date, contacts, "Notes");
+        assertEquals(4, pastMeet.getId());
 
     }
-
-
 
 
 
