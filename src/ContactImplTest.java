@@ -31,8 +31,8 @@ public class ContactImplTest {
 
     @Test
     public void testIdAccessor() {
-        Contact testContact = new ContactImpl(0, "Bartholomew");
-        assertEquals(0, testContact.getId());
+        Contact testContact = new ContactImpl(2, "Bartholomew");
+        assertEquals(2, testContact.getId());
         //assertEquals("Bartholomew", contact.getName());
         //assertEquals("Calling..", contact.getNotes());
     }
@@ -45,8 +45,8 @@ public class ContactImplTest {
 
     @Test
     public void testNotesAccessor() {
-        Contact testContact = new ContactImpl(42, "Jude");
-        assertEquals("Let's drink wine and break bread", testContact.getNotes());
+        Contact testContact = new ContactImpl(42, "Jude", "I've brought lamb");
+        assertEquals("I've brought lamb", testContact.getNotes());
     }
 
     @Test
