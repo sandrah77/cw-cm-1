@@ -41,11 +41,17 @@ public class PastMeetingImplTest {
         contacts.add(contact2);
         contacts.add(contact3);
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        PastMeeting pastMeet = new PastMeetingImpl(3, date, contacts, "Notes");
+        PastMeeting pastMeet = new PastMeetingImpl(3, date, contacts, "Let's get started at noon");
         assertEquals(3, pastMeet.getId());
     }
 
+    @Test
+    public void testDateAccessorMethod() {
+        contacts.add(contact1);
+        contacts.add(contact2);
+        Calendar date = new GregorianCalendar(2015, 5, 45);
+        PastMeeting pastMeet = new PastMeetingImpl(2, null, contacts, "See you then");
+        assertEquals(date, pastMeet.getDate());
 
-
-
+    }
 }
