@@ -35,6 +35,12 @@ public class PastMeetingImplTest {
 
     }
 
+    @After
+    public void tearDown() {
+        contacts = null;
+    }
+
+
     @Test
     public void testIdAccessorMethod() {
         contacts.add(contact1);
