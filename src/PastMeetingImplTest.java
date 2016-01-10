@@ -1,8 +1,9 @@
 /**
- * Past meeting implementation tests.
+ * Past meeting implementation tests
  *
  * @author sfarme01
  */
+import com.sun.org.apache.xpath.internal.operations.Gt;
 import org.junit.*;
 import static org.junit.Assert.*;
 import java.util.Calendar;
@@ -81,6 +82,12 @@ public class PastMeetingImplTest {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         PastMeeting pastMeet = new PastMeetingImpl(5, date, contacts, "All is well");
         assertEquals("All is well", pastMeet.getNotes());
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void testIAENegativeId() {
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeetingImpl pastMeet = new PastMeetingImpl(-1, date, contacts, "Hi");
     }
 
     @Test (expected = IllegalArgumentException.class)
