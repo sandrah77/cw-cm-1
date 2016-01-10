@@ -82,10 +82,23 @@ public class PastMeetingImplTest {
     }
 
     @Test (expected = NullPointerException.class)
-    public void testIAENullDate() {
+    public void testNPENullDate() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         contacts.add(contact1);
         PastMeeting pastMeet = new PastMeetingImpl(9, null, contacts, "Let's gather");
+    }
+
+    @Test (expected = NullPointerException.class)
+    public void testNPENullNotes() {
+        contacts.add(contact1);
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeeting pastMeet = new PastMeetingImpl(9, date, contacts, null);
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void testNPEAllNull() {
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeeting pastMeeting = new PastMeetingImpl(1, null, null, null);
     }
 
 
