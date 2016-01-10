@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FutureMeetingImplTest.java" afterPath="$PROJECT_DIR$/src/FutureMeetingImplTest.java" />
-    </list>
+    <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="" />
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -846,7 +844,7 @@
       <workItem from="1452119656108" duration="2459000" />
       <workItem from="1452270165378" duration="23662000" />
       <workItem from="1452345877979" duration="22020000" />
-      <workItem from="1452427964653" duration="5934000" />
+      <workItem from="1452427964653" duration="5953000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -876,9 +874,6 @@
     <history-entry file="FutureMeetingImplTest_testIAENegativeId - 2016.01.10 at 15h 12m 05s.xml">
       <configuration name="FutureMeetingImplTest.testIAENegativeId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FutureMeetingImplTest_testIdAccessorMethod - 2016.01.10 at 14h 37m 11s.xml">
-      <configuration name="FutureMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FutureMeetingImplTest_testIdAccessorMethod - 2016.01.10 at 14h 39m 27s.xml">
       <configuration name="FutureMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
@@ -888,9 +883,12 @@
     <history-entry file="FutureMeetingImplTest_testNPENullDate - 2016.01.10 at 15h 12m 33s.xml">
       <configuration name="FutureMeetingImplTest.testNPENullDate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FutureMeetingImplTest_testNPENullDate - 2016.01.10 at 15h 13m 08s.xml">
+      <configuration name="FutureMeetingImplTest.testNPENullDate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84287000" />
+    <option name="totallyTimeSpent" value="84306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1918" y="23" width="1673" height="1057" extended-state="0" />
@@ -903,7 +901,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1819407" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08355795" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21397915" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
