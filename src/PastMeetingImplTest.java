@@ -75,5 +75,10 @@ public class PastMeetingImplTest {
         assertEquals("All is well", pastMeet.getNotes());
     }
 
+    @Test (expected = IllegalArgumentException.class)
+    public void testPassingEmptySetOfContacts() {
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        PastMeeting pastMeet = new PastMeetingImpl(9, date, null, "Let's gather");
+    }
 
 }
