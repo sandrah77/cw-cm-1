@@ -16,11 +16,11 @@
 
      /**
      *Constructor
-      *
-      * @param Id the contact id
-      * @param date the date of the meeting
-      * @param contacts the list of people that attended the meeting
-      *
+     *
+     * @param Id the contact id
+     * @param date the date of the meeting
+     * @param contacts the list of people that attended the meeting
+     *
      */
 
      public FutureMeetingImpl(int Id, Calendar date, Set<Contact> contacts) {
