@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FutureMeetingImpl.java" afterPath="$PROJECT_DIR$/src/FutureMeetingImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FutureMeetingImplTest.java" afterPath="$PROJECT_DIR$/src/FutureMeetingImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MockContact.java" afterPath="$PROJECT_DIR$/src/MockContact.java" />
     </list>
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,53 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FutureMeetingImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FutureMeetingImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FutureMeetingImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46042004">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
-                <element signature="e#0#461#0" expanded="true" />
+                <element signature="e#0#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FutureMeeting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FutureMeeting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PastMeeting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PastMeeting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Meeting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Meeting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FutureMeetingImplTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FutureMeetingImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FutureMeetingImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.46688208">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#409#410#0" expanded="true" />
@@ -81,17 +53,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PastMeetingImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PastMeetingImplTest.java">
+      <file leaf-file-name="MockContact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MockContact.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-              </folding>
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,13 +105,13 @@
         <option value="$PROJECT_DIR$/src/MockPastMeeting.java" />
         <option value="$PROJECT_DIR$/src/MeetingImpl.java" />
         <option value="$PROJECT_DIR$/src/ContactImpl.java" />
-        <option value="$PROJECT_DIR$/src/MockContact.java" />
         <option value="$PROJECT_DIR$/src/PastMeetingImpl.java" />
         <option value="$PROJECT_DIR$/src/ContactImplTest.java" />
         <option value="$PROJECT_DIR$/src/PastMeetingImplTest.java" />
-        <option value="$PROJECT_DIR$/src/FutureMeetingImplTest.java" />
         <option value="$PROJECT_DIR$/src/ContactManagerImplTest.java" />
         <option value="$PROJECT_DIR$/src/FutureMeetingImpl.java" />
+        <option value="$PROJECT_DIR$/src/MockContact.java" />
+        <option value="$PROJECT_DIR$/src/FutureMeetingImplTest.java" />
       </list>
     </option>
   </component>
@@ -866,7 +833,7 @@
       <workItem from="1452119656108" duration="2459000" />
       <workItem from="1452270165378" duration="23662000" />
       <workItem from="1452345877979" duration="22020000" />
-      <workItem from="1452427964653" duration="2841000" />
+      <workItem from="1452427964653" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -910,7 +877,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81194000" />
+    <option name="totallyTimeSpent" value="81404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1918" y="23" width="1673" height="1057" extended-state="0" />
@@ -1326,14 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MockContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23961662">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24920128">
@@ -1376,24 +1335,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FutureMeetingImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/FutureMeeting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.09693053">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MockPastMeeting.java">
+    <entry file="file://$PROJECT_DIR$/src/FutureMeetingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1414,20 +1369,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FutureMeeting.java">
+    <entry file="file://$PROJECT_DIR$/src/MockPastMeeting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MockContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FutureMeetingImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/FutureMeetingImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46042004">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.46688208">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <element signature="e#0#461#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,12 +5,12 @@ public class MockContact implements Contact {
 
     @Override
     public int getId() {
-        return 4;
+        return -14;
     }
 
     @Override
     public String getName() {
-        return "Matt";
+        return "Jude";
     }
 
     @Override

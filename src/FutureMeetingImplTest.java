@@ -22,10 +22,10 @@ public class FutureMeetingImplTest {
 
     @Before
     public void init() {
-        contact1 = new MockContact();
-        contact2 = new MockContact();
-        contact3 = new MockContact();
         contacts = new HashSet<Contact>();
+        Contact contact1 = new MockContact();
+        Contact contact2 = new MockContact();
+        Contact contact3 = new MockContact();
         Calendar date = new GregorianCalendar(2015, 5, 14);
     }
 

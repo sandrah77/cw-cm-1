@@ -17,7 +17,8 @@
       * @param id the contact id
       * @param date the date of the meeting
       * @param contacts the list of people that attended the meeting
-      *                 
+      *
      */
+     //FutureMeetingImpl()
 
 }
