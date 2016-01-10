@@ -9,6 +9,8 @@ import java.util.Set;
 public class PastMeetingImpl extends MeetingImpl implements PastMeeting {
     private String notes;
 
+
+
     /**
      * Constructor with three parameters.
      * The set of contacts must be non-empty or an IllegalArgumentException will be thrown.
@@ -18,11 +20,12 @@ public class PastMeetingImpl extends MeetingImpl implements PastMeeting {
      * @param Id the contact id
      * @param date the date of the meeting
      * @param contacts the list of people that attended the meeting
+     * @param notes the notes for the meeting
      */
     public PastMeetingImpl(int Id, Calendar date, Set<Contact> contacts, String notes) {
         super(Id, date, contacts);
 
-        if (this.notes == null) {
+        if (notes == null) {
             throw new NullPointerException("Please enter valid notes");
         } else {
             this.notes = notes;

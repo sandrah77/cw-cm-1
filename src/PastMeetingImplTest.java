@@ -47,8 +47,8 @@ public class PastMeetingImplTest {
         contacts.add(contact2);
         contacts.add(contact3);
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        PastMeeting pastMeet = new PastMeetingImpl(3, date, contacts, "Let's get started at noon");
-        assertEquals(3, pastMeet.getId());
+        PastMeeting pastMeet = new PastMeetingImpl(4, date, contacts, "Let's get started at noon");
+        assertEquals(4, pastMeet.getId());
     }
 
     @Test
@@ -106,6 +106,4 @@ public class PastMeetingImplTest {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         PastMeeting pastMeeting = new PastMeetingImpl(1, null, null, null);
     }
-
-
 }
