@@ -71,7 +71,7 @@ public class PastMeetingImplTest {
     public void testNotesGetterMethod() {
         contacts.add(contact1);
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        PastMeeting pastMeet = new PastMeetingImpl(5, date, contacts, "All is swell");
+        PastMeeting pastMeet = new PastMeetingImpl(5, date, contacts, "All is well");
         assertEquals("All is well", pastMeet.getNotes());
     }
 
