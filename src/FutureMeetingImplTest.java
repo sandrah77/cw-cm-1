@@ -41,4 +41,13 @@ public class FutureMeetingImplTest {
         FutureMeeting futureMeet = new FutureMeetingImpl(4, date, contacts);
         assertEquals(4, futureMeet.getId());
     }
+
+    @Test
+    public void testDateAccessorMethod() {
+        contacts.add(contact1);
+        contacts.add(contact2);
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        FutureMeeting futureMeet = new FutureMeetingImpl(4, date, contacts);
+        assertEquals(date, futureMeet.getDate());
+    }
 }
