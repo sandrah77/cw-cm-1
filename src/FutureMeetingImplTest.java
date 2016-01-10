@@ -78,7 +78,7 @@ public class FutureMeetingImplTest {
     @Test(expected = IllegalArgumentException.class)
     public void testIAEEmptySetOfContacts() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        FutureMeeting futureMeet = new FutureMeetingImpl(9, date, contacts);
+        FutureMeeting futureMeet = new FutureMeetingImpl(9, date, null);
     }
 
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="" />
+    <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FutureMeetingImplTest.java" afterPath="$PROJECT_DIR$/src/FutureMeetingImplTest.java" />
+    </list>
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,8 +69,8 @@
       <file leaf-file-name="FutureMeetingImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FutureMeetingImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5231214">
-              <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.6748555">
+              <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,28 +238,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.FutureMeetingImplTest.testNPENullDate">
-    <configuration default="false" name="FutureMeetingImplTest.testDateAccessorMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="cw-cm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FutureMeetingImplTest" />
-      <option name="METHOD_NAME" value="testDateAccessorMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FutureMeetingImplTest.testIAEEmptySetOfContacts">
     <configuration default="false" name="FutureMeetingImplTest.testContactsAccessorMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="cw-cm" />
@@ -329,6 +310,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FutureMeetingImplTest" />
       <option name="METHOD_NAME" value="testNPENullDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FutureMeetingImplTest.testIAEEmptySetOfContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="cw-cm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FutureMeetingImplTest" />
+      <option name="METHOD_NAME" value="testIAEEmptySetOfContacts" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -798,19 +800,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testDateAccessorMethod" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testContactsAccessorMethod" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIAENegativeId" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testIAENegativeId" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testNPENullDate" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testContactsAccessorMethod" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIAENegativeId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testIAENegativeId" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testNPENullDate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testIAEEmptySetOfContacts" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testNPENullDate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testIAENegativeId" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIAENegativeId" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testContactsAccessorMethod" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testDateAccessorMethod" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testIAEEmptySetOfContacts" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testNPENullDate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testIAENegativeId" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PastMeetingImplTest.testIAENegativeId" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FutureMeetingImplTest.testContactsAccessorMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -844,7 +846,7 @@
       <workItem from="1452119656108" duration="2459000" />
       <workItem from="1452270165378" duration="23662000" />
       <workItem from="1452345877979" duration="22020000" />
-      <workItem from="1452427964653" duration="5953000" />
+      <workItem from="1452427964653" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -868,14 +870,14 @@
     <history-entry file="FutureMeetingImplTest_testDateAccessorMethod - 2016.01.10 at 14h 42m 55s.xml">
       <configuration name="FutureMeetingImplTest.testDateAccessorMethod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FutureMeetingImplTest_testIAEEmptySetOfContacts - 2016.01.10 at 15h 13m 31s.xml">
+      <configuration name="FutureMeetingImplTest.testIAEEmptySetOfContacts" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FutureMeetingImplTest_testIAENegativeId - 2016.01.10 at 15h 11m 56s.xml">
       <configuration name="FutureMeetingImplTest.testIAENegativeId" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FutureMeetingImplTest_testIAENegativeId - 2016.01.10 at 15h 12m 05s.xml">
       <configuration name="FutureMeetingImplTest.testIAENegativeId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FutureMeetingImplTest_testIdAccessorMethod - 2016.01.10 at 14h 39m 27s.xml">
-      <configuration name="FutureMeetingImplTest.testIdAccessorMethod" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FutureMeetingImplTest_testNPENullDate - 2016.01.10 at 15h 12m 22s.xml">
       <configuration name="FutureMeetingImplTest.testNPENullDate" configurationId="JUnit" />
@@ -888,7 +890,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84306000" />
+    <option name="totallyTimeSpent" value="84339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1918" y="23" width="1673" height="1057" extended-state="0" />
@@ -1403,8 +1405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FutureMeetingImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5231214">
-          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.6748555">
+          <caret line="80" column="70" selection-start-line="80" selection-start-column="70" selection-end-line="80" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
