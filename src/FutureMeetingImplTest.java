@@ -61,6 +61,7 @@ public class FutureMeetingImplTest {
         for(Contact contacts: futureMeet.getContacts()) {
             System.out.println("\n\t\t" + contacts.getId() + "\t" + contacts.getName());
         }
-        assertEquals(date, futureMeet.getContacts().containsAll(contacts));
+        assertEquals(3, futureMeet.getContacts().size());
+        assertTrue(futureMeet.getContacts().containsAll(contacts));
     }
 }
