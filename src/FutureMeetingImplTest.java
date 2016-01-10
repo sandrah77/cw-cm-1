@@ -66,13 +66,13 @@ public class FutureMeetingImplTest {
     @Test (expected = IllegalArgumentException.class)
     public void testIAENegativeId() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        FutureMeetingImpl futureMeet = new FutureMeetingImpl(-1, date, contacts);
+        FutureMeetingImpl futureMeet = new FutureMeetingImpl(1, date, contacts);
     }
 
-    @Ignore(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class)
     public void testNPENullDate() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        FutureMeeting futureMeet = new FutureMeetingImpl(9, null, contacts);
+        FutureMeeting futureMeet = new FutureMeetingImpl(9, date, contacts);
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -82,7 +82,7 @@ public class FutureMeetingImplTest {
     }
 
 
-    @Ignore(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class)
     public void testNPEAllNull() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         FutureMeeting futureMeet = new FutureMeetingImpl(1, null, null);
