@@ -38,7 +38,7 @@ public class FutureMeetingImplTest {
         contacts.add(contact2);
         contacts.add(contact3);
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        FutureMeeting futureMeet = new FutureMeetingImpl(-14, date, contacts);
+        FutureMeeting futureMeet = new FutureMeetingImpl(4, date, contacts);
         assertEquals(4, futureMeet.getId());
     }
 }
