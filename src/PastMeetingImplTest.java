@@ -1,5 +1,7 @@
 /**
- * Created by Alexander on 08/01/2016.
+ * Past meeting implementation tests.
+ *
+ * @author sfarme01
  */
 import org.junit.*;
 import static org.junit.Assert.*;

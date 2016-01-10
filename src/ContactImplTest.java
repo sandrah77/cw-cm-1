@@ -1,7 +1,5 @@
 import org.junit.*;
 
-import java.util.IllegalFormatCodePointException;
-
 import static org.junit.Assert.*;
 
 
