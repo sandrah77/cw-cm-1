@@ -72,7 +72,7 @@ public class FutureMeetingImplTest {
     @Test(expected = NullPointerException.class)
     public void testNPENullDate() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        FutureMeeting futureMeet = new FutureMeetingImpl(9, date, contacts);
+        FutureMeeting futureMeet = new FutureMeetingImpl(9, null, contacts);
     }
 
     @Test(expected = IllegalArgumentException.class)
