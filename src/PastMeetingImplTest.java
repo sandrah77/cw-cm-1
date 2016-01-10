@@ -81,7 +81,7 @@ public class PastMeetingImplTest {
         PastMeeting pastMeet = new PastMeetingImpl(9, date, contacts, "Let's gather");
     }
 
-    @Test (expected = IllegalArgumentException.class)
+    @Test (expected = NullPointerException.class)
     public void testIAENullDate() {
         Calendar date = new GregorianCalendar(2015, 5, 14);
         contacts.add(contact1);
