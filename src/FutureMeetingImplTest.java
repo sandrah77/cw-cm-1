@@ -50,4 +50,17 @@ public class FutureMeetingImplTest {
         FutureMeeting futureMeet = new FutureMeetingImpl(4, date, contacts);
         assertEquals(date, futureMeet.getDate());
     }
+
+    @Test
+    public void testContactsAccessorMethod() {
+        contacts.add(contact1);
+        contacts.add(contact2);
+        contacts.add(contact3);
+        Calendar date = new GregorianCalendar(2015, 5, 14);
+        FutureMeeting futureMeet = new FutureMeetingImpl(4, date, contacts);
+        for(Contact contacts: futureMeet.getContacts()) {
+            System.out.println("\n\t\t" + contacts.getId() + "\t" + contacts.getName());
+        }
+        assertEquals(date, futureMeet.getContacts().containsAll(contacts));
+    }
 }
