@@ -21,4 +21,5 @@ public class MockContact implements Contact {
     @Override
     public void addNotes(String note) {
     }
+
 }

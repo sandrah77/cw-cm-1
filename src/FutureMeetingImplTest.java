@@ -13,6 +13,9 @@ import java.util.concurrent.Future;
  */
 public class FutureMeetingImplTest {
     private Set<Contact> contacts;
+    private Contact contact1;
+    private Contact contact2;
+    private Contact contact3;
 
 
     @BeforeClass
@@ -23,9 +26,9 @@ public class FutureMeetingImplTest {
     @Before
     public void init() {
         contacts = new HashSet<Contact>();
-        Contact contact1 = new MockContact();
-        Contact contact2 = new MockContact();
-        Contact contact3 = new MockContact();
+        contact1 = new MockContact();
+        contact2 = new MockContact();
+        contact3 = new MockContact();
         Calendar date = new GregorianCalendar(2015, 5, 14);
     }
 
@@ -35,9 +38,7 @@ public class FutureMeetingImplTest {
         contacts.add(contact2);
         contacts.add(contact3);
         Calendar date = new GregorianCalendar(2015, 5, 14);
-        FutureMeeting futureMeet = new FutureMeetingImpl(4, date, contacts, "Let's get started at noon");
+        FutureMeeting futureMeet = new FutureMeetingImpl(-14, date, contacts);
         assertEquals(4, futureMeet.getId());
     }
-
-
 }
