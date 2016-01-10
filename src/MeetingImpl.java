@@ -4,7 +4,7 @@ import java.util.Set;
 /**
  * Created by Alexander on 24/12/2015.
  */
-public abstract class MeetingImpl implements Meeting {
+public abstract class MeetingImpl implements Meeting, java.io.Serializable {
     private int Id;
     private Calendar date;
     private Set<? extends Contact> contacts;
@@ -62,6 +62,6 @@ public abstract class MeetingImpl implements Meeting {
      * @return the details of people that attended the meeting.
      */
     public Set<Contact> getContacts(){
-        return (Set<Contact>) this.contacts;
+        return (Set<Contact>) contacts;
     }
 }

@@ -5,7 +5,7 @@
  import java.util.Set;
 
 
- public class FutureMeetingImpl extends MeetingImpl implements FutureMeeting {
+ public class FutureMeetingImpl extends MeetingImpl implements FutureMeeting, java.io.Serializable {
     /**
      * A class that implements the FutureMeeting interface
      *
