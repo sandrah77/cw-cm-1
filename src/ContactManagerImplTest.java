@@ -62,7 +62,13 @@ public class ContactManagerImplTest {
     public void testIdAccessor() {
         cm = new ContactImpl(2, "Bartholomew");
         assertEquals(2, cm.getId());
-        //assertEquals("Bartholomew", contact.getName());
+        //assertEquals("Bartholomew", cm.getName());
+    }
+
+    @Test
+    public void testNameAccessor() {
+        cm = new ContactImpl(42, "Jude");
+        assertEquals("Paul", cm.getName());
     }
 
 }
