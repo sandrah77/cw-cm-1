@@ -143,4 +143,8 @@ public class ContactManagerImplTest {
         cm = new ContactImpl(-5, "Andrew", "Shalom");
     }
 
+    @Test(expected = NullPointerException.class)
+    public void testFutureMeetingNPE() {
+
+    }
 }
