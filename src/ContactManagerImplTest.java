@@ -74,7 +74,14 @@ public class ContactManagerImplTest {
     @Test
     public void testNotesAccessor() {
         cm = new ContactImpl(42, "Jude", "I've brought lamb");
-        assertEquals("I've brought turkey", cm.getNotes());
+        assertEquals("I've brought lamb", cm.getNotes());
+    }
+
+    @Test
+    public void testAddNotesMutator() {
+        cm = new ContactImpl(13, "Judas","Let's drink wine and break bread");
+        cm.addNotes("Let the final meal commence brethren..");
+        assertEquals("Let's drink wine and break bread\nLet the final meal", cm.getNotes());
     }
 
 }
