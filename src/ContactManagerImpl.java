@@ -269,12 +269,25 @@ public class ContactManagerImpl implements ContactManager {
      *                                  any of the provided IDs does not correspond to a real contact
      */
     public Set<Contact> getContacts(int... ids) {
-        return null;
+        Set<Contact> contactsSubList = new HashSet<Contact>();
+        boolean found = false;
+        for(int id: ids){
+            found = false;
+            for(Contact contact : contacts){
+                if(contact.getId() == id){
+                    contactsSubList.add(contact);
+                    found = true;
+                    break;
+                }
+            }
+            if(!found) throw new IllegalArgumentException("Invalid contact ID: " + id);
+        }
+        return contactsSubList;
     }
 
     /**
      * Save all data to disk.
-     * <p/>
+     *
      * This method must be executed when the program is
      * closed and when/if the user requests it.
      */
