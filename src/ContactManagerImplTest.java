@@ -122,4 +122,6 @@ public class ContactManagerImplTest {
         assertEquals("\n\nHello Everyone.", cm.getNotes());
     }
 
+
+
 }

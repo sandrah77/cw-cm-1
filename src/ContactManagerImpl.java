@@ -192,7 +192,25 @@ public class ContactManagerImpl implements ContactManager {
      * @throws NullPointerException     if any of the
      */
     public void addNewPastMeeting(Set<Contact> contacts, Calendar date, String text) {
-
+        Calendar today = Calendar.getInstance();
+        if(contacts == null) {
+            throw new NullPointerException("Argument: contact is null.");
+        }
+        if(date == null) {
+            throw new NullPointerException("Argument: date is null");
+        }
+        if(text == null){
+            throw new NullPointerException("Argument: text is null");
+        }
+        if(date.after(today)){
+            throw new IllegalArgumentException("Argument: date is a future date");
+        }
+        if(contacts.isEmpty()){
+            throw new IllegalArgumentException("Argument: contact is empty.");
+        }
+        int id = ++nextMeetingId;
+        PastMeetingImpl m = new PastMeetingImpl(id, date, contacts, text);
+        meetings.add(m);
     }
 
     /**
@@ -210,8 +228,35 @@ public class ContactManagerImpl implements ContactManager {
      * @throws NullPointerException     if the notes are null
      */
     public PastMeeting addMeetingNotes(int id, String text) {
-        return null;
+        if (text == null) {
+            throw new NullPointerException("Argument text cannot be null");
+        }
+        Meeting m = null;
+        boolean found = false;
+        for (Meeting meeting : meetings) {
+            if (meeting.getId() == id) {
+                m = meeting;
+                found = true;
+                break;
+            }
+        }
+        if (found) {
+            if (m.getDate().after(Calendar.getInstance())) {
+                throw new IllegalStateException("This meeting is set for a future date");
+            }
+            String t = "";
+            if (m instanceof PastMeetingImpl) {
+                t = ((PastMeetingImpl) m).getNotes();
+            }
+            meetings.remove(m);
+            PastMeetingImpl pastMeeting = new PastMeetingImpl(m.getId(), m.getDate(), m.getContacts(), t + " " + text);
+            meetings.add(pastMeeting);
+        } else {
+            throw new IllegalArgumentException("Invalid meeting ID: " + id);
+        }
+        return m;
     }
+
 
     /**
      * Create a new contact with the specified name and notes.
