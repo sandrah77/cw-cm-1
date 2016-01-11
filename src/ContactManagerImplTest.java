@@ -107,7 +107,7 @@ public class ContactManagerImplTest {
     public void testExceptionConstructorWithNotesAndNullNotes() {
         cm = new ContactImpl(1, "Judas", "Come hither");
         cm.addNotes(null);
-        cm.addNotes(null);
+        cm.addNotes("We shall have a feast");
         cm.addNotes(null);
         assertEquals("Come hither\nWe shall have a feast", cm.getNotes());
     }
