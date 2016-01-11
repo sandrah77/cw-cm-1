@@ -100,8 +100,16 @@ public class ContactManagerImplTest {
         cm.addNotes("Sure..");
         // assertEquals(12, testContact.getId());
         // assertEquals("John",testContact.getName());
-        assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure", cm.getNotes());
+        assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure..", cm.getNotes());
     }
 
+    @Test
+    public void testExceptionConstructorWithNotesAndNullNotes() {
+        cm = new ContactImpl(1, "Judas", "Come hither");
+        cm.addNotes(null);
+        cm.addNotes(null);
+        cm.addNotes(null);
+        assertEquals("Come hither\nWe shall have a feast", cm.getNotes());
+    }
 
 }
