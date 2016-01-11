@@ -1,14 +1,5 @@
-/**
- * Created by Alexander on 24/12/2015.
- */
-import javax.naming.CompositeName;
-import java.util.Calendar;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Collections;
-import java.util.Comparator;
+
+import java.util.*;
 import java.io.*;
 
 
@@ -73,11 +64,11 @@ public class ContactManagerImpl implements ContactManager {
      * ID must be positive and non-zero.
      *
      * @param contacts a list of contacts that will participate in the meeting
-     * @param date     the date on which the meeting will take place
+     * @param date the date on which the meeting will take place
      * @return Id the ID for the meeting
-     * @throws IllegalArgumentException if the meeting is set for a time
-     *                                  in the past, of if any contact is unknown / non-existent.
-     * @throws NullPointerException     if the meeting or the date are null
+     * @throws IllegalArgumentException if the meeting is set for a time in the past, of if any contact
+     *          is unknown / non-existent.
+     * @throws NullPointerException if the meeting or the date are null
      */
 
     public int addFutureMeeting(Set<Contact> contacts, Calendar date) {
@@ -108,7 +99,15 @@ public class ContactManagerImpl implements ContactManager {
      *                               in the future
      */
     public PastMeeting getPastMeeting(int id) {
-        return null;
+        for(Meeting m: meetings) {
+            if(id == m.getId()) {
+                if(m.getDate().before(Calendar.getInstance()))
+                    return (PastMeeting)m;
+                else
+                    throw new IllegalArgumentException("The meeting with ID = " + m.getId() + " is a future meeting");
+            }
+        }
+        return null; // Return null if no meeting with the given ID
     }
 
     /**
@@ -121,7 +120,15 @@ public class ContactManagerImpl implements ContactManager {
      */
 
     public FutureMeeting getFutureMeeting(int id) {
-        return null;
+        for(Meeting m: meetings) {
+            if(id == m.getId()) {
+                if(m.getDate().after(Calendar.getInstance()))
+                    return (FutureMeeting)m;
+                else
+                    throw new IllegalArgumentException("The meeting with ID = " + m.getId() + " is a past meeting");
+            }
+        }
+        return null; // Return null if no meeting with the given ID
     }
 
 
@@ -133,6 +140,11 @@ public class ContactManagerImpl implements ContactManager {
      */
 
     public Meeting getMeeting(int id){
+        for(Meeting m: meetings) {
+            if(id == m.getId()) {
+                return m;
+            }
+        }
         return null;
     }
 
@@ -148,7 +160,29 @@ public class ContactManagerImpl implements ContactManager {
      * @throws NullPointerException     if the contact is null
      */
     public List<Meeting> getFutureMeetingList(Contact contact) {
-        return null;
+        if(!contacts.contains(contact)) {
+            throw new IllegalArgumentException("Argument \"contact\" doesn't exist.");
+        }
+        List<Meeting> meetingsSubList = new ArrayList();
+        Set<? extends Contact> contacts;
+        for(Meeting meeting: meetings){
+            contacts = meeting.getContacts();
+            for(Contact aContactInList: contacts){
+                if(aContactInList.equals(contact) && meeting.getDate().after(Calendar.getInstance()))
+                    meetingsSubList.add(meeting);
+            }
+        }
+        
+        // remove duplicates if any
+        HashSet hs = new HashSet();
+        hs.addAll(meetingsSubList);
+        meetingsSubList.clear();
+        meetingsSubList.addAll(hs);
+        
+        //sort the list chronologically
+        Collections.sort(meetingsSubList, new MeetingDateComparator());
+        
+        return meetingsSubList;
     }
 
     /**
@@ -164,7 +198,31 @@ public class ContactManagerImpl implements ContactManager {
      * @throws NullPointerException if the date are null
      */
     public List<Meeting> getMeetingListOn(Calendar date) {
-        return null;
+        if (date == null) {
+            throw new NullPointerException();
+        }
+        List<Meeting> meetingsSubList = new ArrayList<Meeting>();
+        Calendar meetDate;
+        for (Meeting m : this.meetings) {
+            meetDate = m.getDate();
+
+
+            if (meetDate.get(Calendar.DAY_OF_MONTH) == date.get(Calendar.DAY_OF_MONTH)
+                    && meetDate.get(Calendar.MONTH) == date.get(Calendar.MONTH)
+                    && meetDate.get(Calendar.YEAR) == date.get(Calendar.YEAR)) {
+            }
+
+            // remove duplicates if any
+            HashSet hs = new HashSet();
+            hs.addAll(meetingsSubList);
+            meetingsSubList.clear();
+            meetingsSubList.addAll(hs);
+
+            //sort the list chronologically
+            Collections.sort(meetingsSubList, new MeetingDateComparator());
+        }
+        return meetingsSubList;
+
     }
 
     /**
@@ -175,10 +233,35 @@ public class ContactManagerImpl implements ContactManager {
      * @param contact one of the users contacts
      * @return the list of future meeting(s) scheduled with this contact (maybe empty).
      * @throws IllegalArgumentException if the contact does not exist
-     * @throws NullPointerException     if the contact is null
+     * @throws NullPointerException if the contact is null
      */
     public List<PastMeeting> getPastMeetingListFor(Contact contact) {
-        return null;
+        if (!contacts.contains(contact)) {
+            throw new IllegalArgumentException("Argument \"contact\" doesn't exist.");
+        }
+        if (contacts == null) {
+            throw new NullPointerException("The contact is null");
+        }
+
+        List<PastMeeting> meetingsSubList = new ArrayList<PastMeeting>();
+        Set<? extends Contact> contacts;
+        for (Meeting meeting : this.meetings) {
+            contacts = meeting.getContacts();
+            for (Contact aContactInList : contacts) {
+                if (aContactInList.equals(contact) && meeting.getContacts().contains(contact)) {
+                    meetingsSubList.add((PastMeeting) meeting);
+                }
+            }
+            // remove duplicates if any
+            HashSet hs = new HashSet();
+            hs.addAll(meetingsSubList);
+            meetingsSubList.clear();
+            meetingsSubList.addAll(hs);
+
+            //sort the list chronologically
+            Collections.sort(meetingsSubList, new MeetingDateComparator());
+        }
+        return meetingsSubList;
     }
 
     /**

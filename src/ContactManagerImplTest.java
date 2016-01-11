@@ -142,9 +142,4 @@ public class ContactManagerImplTest {
     public void testNegativeIdValuesWithConstructor() {
         cm = new ContactImpl(-5, "Andrew", "Shalom");
     }
-
-    @Test(expected = NullPointerException.class)
-    public void testFutureMeetingNPE() {
-
-    }
 }
