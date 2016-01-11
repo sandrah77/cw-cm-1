@@ -56,14 +56,14 @@
         <entry file="file://$PROJECT_DIR$/src/ContactManagerImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7430407">
-              <caret line="142" column="29" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
+              <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#574#575#0" expanded="true" />
                 <element signature="e#4459#4468#0" expanded="true" />
                 <element signature="e#4688#4689#0" expanded="true" />
-                <element signature="e#4747#4748#0" expanded="true" />
+                <element signature="e#4748#4749#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -841,7 +841,7 @@
       <workItem from="1452270165378" duration="23662000" />
       <workItem from="1452345877979" duration="22020000" />
       <workItem from="1452427964653" duration="16134000" />
-      <workItem from="1452508906536" duration="12087000" />
+      <workItem from="1452508906536" duration="12107000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -853,9 +853,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactManagerImplTest_testExceptionConstructorNegativeIdAndEmptyNotes - 2016.01.11 at 17h 48m 09s.xml">
-      <configuration name="ContactManagerImplTest.testExceptionConstructorNegativeIdAndEmptyNotes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ContactManagerImplTest_testExceptionConstructorNegativeIdAndEmptyNotes - 2016.01.11 at 17h 48m 33s.xml">
       <configuration name="ContactManagerImplTest.testExceptionConstructorNegativeIdAndEmptyNotes" configurationId="JUnit" />
     </history-entry>
@@ -880,12 +877,15 @@
     <history-entry file="ContactManagerImplTest_testNegativeIdValuesWithConstructor - 2016.01.11 at 18h 42m 55s.xml">
       <configuration name="ContactManagerImplTest.testNegativeIdValuesWithConstructor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContactManagerImplTest_testNegativeIdValuesWithConstructor - 2016.01.11 at 18h 43m 16s.xml">
+      <configuration name="ContactManagerImplTest.testNegativeIdValuesWithConstructor" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ContactManagerImplTest_testSimilarObjectsCreated - 2016.01.11 at 18h 22m 43s.xml">
       <configuration name="ContactManagerImplTest.testSimilarObjectsCreated" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106574000" />
+    <option name="totallyTimeSpent" value="106594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="23" width="1440" height="832" extended-state="0" />
@@ -1441,14 +1441,14 @@
     <entry file="file://$PROJECT_DIR$/src/ContactManagerImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7430407">
-          <caret line="142" column="29" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
+          <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#505#506#0" expanded="true" />
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#4459#4468#0" expanded="true" />
             <element signature="e#4688#4689#0" expanded="true" />
-            <element signature="e#4747#4748#0" expanded="true" />
+            <element signature="e#4748#4749#0" expanded="true" />
           </folding>
         </state>
       </provider>

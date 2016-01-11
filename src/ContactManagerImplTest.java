@@ -140,7 +140,7 @@ public class ContactManagerImplTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testNegativeIdValuesWithConstructor() {
-        cm = new ContactImpl(5, "Andrew", "Shalom");
+        cm = new ContactImpl(-5, "Andrew", "Shalom");
     }
 
 }
