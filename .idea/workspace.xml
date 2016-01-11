@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd36d113-7ad4-40c1-bcdb-2108f736aa8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactManagerImpl.java" afterPath="$PROJECT_DIR$/src/ContactManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContactManagerImplTest.java" afterPath="$PROJECT_DIR$/src/ContactManagerImplTest.java" />
     </list>
     <ignored path="cw-cm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +28,27 @@
       <file leaf-file-name="ContactManagerImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ContactManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48608136">
-              <caret line="218" column="17" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="17" />
+            <state vertical-scroll-proportion="-8.094218">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#3978#3979#0" expanded="true" />
+                <element signature="e#4005#4006#0" expanded="true" />
+                <element signature="e#4421#4422#0" expanded="true" />
+                <element signature="e#4448#4449#0" expanded="true" />
+                <element signature="e#4711#4712#0" expanded="true" />
+                <element signature="e#4738#4739#0" expanded="true" />
+                <element signature="e#5334#5335#0" expanded="true" />
+                <element signature="e#5361#5362#0" expanded="true" />
+                <element signature="e#5847#5848#0" expanded="true" />
+                <element signature="e#5874#5875#0" expanded="true" />
+                <element signature="e#6472#6473#0" expanded="true" />
+                <element signature="e#6499#6500#0" expanded="true" />
+                <element signature="e#7737#7738#0" expanded="true" />
+                <element signature="e#7764#7765#0" expanded="true" />
+                <element signature="e#9275#9284#0" expanded="true" />
+                <element signature="e#10025#10026#0" expanded="true" />
+                <element signature="e#10052#10053#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -829,7 +844,7 @@
       <workItem from="1452270165378" duration="23662000" />
       <workItem from="1452345877979" duration="22020000" />
       <workItem from="1452427964653" duration="16134000" />
-      <workItem from="1452508906536" duration="3547000" />
+      <workItem from="1452508906536" duration="4319000" />
     </task>
     <task id="LOCAL-00001" summary="Creating interfaces and pushing first set of files. Needs structuring.">
       <created>1450206697318</created>
@@ -865,15 +880,15 @@
     <history-entry file="ContactManagerImplTest_TestConstructorContactParameters - 2016.01.11 at 12h 05m 30s.xml">
       <configuration name="ContactManagerImplTest.TestConstructorContactParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FutureMeetingImplTest_testNPENullDate - 2016.01.10 at 15h 13m 08s.xml">
-      <configuration name="FutureMeetingImplTest.testNPENullDate" configurationId="JUnit" />
+    <history-entry file="ContactManagerImplTest_TestConstructorContactParameters - 2016.01.11 at 12h 12m 03s.xml">
+      <configuration name="ContactManagerImplTest.TestConstructorContactParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PastMeetingImplTest_testNPEAllNull - 2016.01.10 at 15h 15m 24s.xml">
-      <configuration name="PastMeetingImplTest.testNPEAllNull" configurationId="JUnit" />
+    <history-entry file="ContactManagerImplTest_TestConstructorContactParameters - 2016.01.11 at 12h 19m 01s.xml">
+      <configuration name="ContactManagerImplTest.TestConstructorContactParameters" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98034000" />
+    <option name="totallyTimeSpent" value="98806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="23" width="1440" height="832" extended-state="0" />
@@ -963,7 +978,23 @@
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#3978#3979#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="e#4421#4422#0" expanded="true" />
+            <element signature="e#4448#4449#0" expanded="true" />
+            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4738#4739#0" expanded="true" />
+            <element signature="e#5334#5335#0" expanded="true" />
+            <element signature="e#5361#5362#0" expanded="true" />
+            <element signature="e#5847#5848#0" expanded="true" />
+            <element signature="e#5874#5875#0" expanded="true" />
+            <element signature="e#6472#6473#0" expanded="true" />
+            <element signature="e#6499#6500#0" expanded="true" />
+            <element signature="e#7737#7738#0" expanded="true" />
+            <element signature="e#7764#7765#0" expanded="true" />
+            <element signature="e#9275#9284#0" expanded="true" />
+            <element signature="e#10025#10026#0" expanded="true" />
+            <element signature="e#10052#10053#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1399,11 +1430,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48608136">
-          <caret line="218" column="17" selection-start-line="218" selection-start-column="17" selection-end-line="218" selection-end-column="17" />
+        <state vertical-scroll-proportion="-8.094218">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#3978#3979#0" expanded="true" />
+            <element signature="e#4005#4006#0" expanded="true" />
+            <element signature="e#4421#4422#0" expanded="true" />
+            <element signature="e#4448#4449#0" expanded="true" />
+            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4738#4739#0" expanded="true" />
+            <element signature="e#5334#5335#0" expanded="true" />
+            <element signature="e#5361#5362#0" expanded="true" />
+            <element signature="e#5847#5848#0" expanded="true" />
+            <element signature="e#5874#5875#0" expanded="true" />
+            <element signature="e#6472#6473#0" expanded="true" />
+            <element signature="e#6499#6500#0" expanded="true" />
+            <element signature="e#7737#7738#0" expanded="true" />
+            <element signature="e#7764#7765#0" expanded="true" />
+            <element signature="e#9275#9284#0" expanded="true" />
+            <element signature="e#10025#10026#0" expanded="true" />
+            <element signature="e#10052#10053#0" expanded="true" />
           </folding>
         </state>
       </provider>
