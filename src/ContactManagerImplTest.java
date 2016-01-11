@@ -11,7 +11,7 @@ import java.io.File;
  * Created by Alexander on 08/01/2016.
  */
 public class ContactManagerImplTest {
-    private ContactManager cm;
+    private ContactManagerImpl cm;
     private Calendar futureDate;
     private Calendar pastDate;
     private Set<Contact> contacts;
@@ -24,7 +24,7 @@ public class ContactManagerImplTest {
 
     @Before
     public void init() {
-        cm = (ContactManager) new ContactManagerImpl();
+        cm = new ContactManagerImpl();
     }
 
     @After

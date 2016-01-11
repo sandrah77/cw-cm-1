@@ -14,6 +14,7 @@ import java.io.*;
 
 /**
  * A class that implements ContactManager
+ *
  * @author sfarme01
  */
 
@@ -81,13 +82,13 @@ public class ContactManagerImpl {//implements ContactManager {
 
     public int addFutureMeeting(Set<Contact> contacts, Calendar date) {
         Calendar today = Calendar.getInstance();
-        if(date.before(today)) {
+        if (date.before(today)) {
             throw new IllegalArgumentException("Argument \"date\" is not a future date.");
         }
-        if(contacts.isEmpty()) {
+        if (contacts.isEmpty()) {
             throw new IllegalArgumentException("Argument \"contacts\" list is empty.");
         }
-        if(contacts.contains(null)) {
+        if (contacts.contains(null)) {
             throw new IllegalArgumentException("List argument \"contacts\" contains one or more unknown/null contacts.");
         }
         int id = ++nextMeetingId;
@@ -103,7 +104,7 @@ public class ContactManagerImpl {//implements ContactManager {
      *
      * @param id the ID for the meeting
      * @return the meeting with the requested ID, or null if it there is none.
-     * @throws  IllegalStateException if there is a meeting with that ID happening
+     * @throws IllegalStateException if there is a meeting with that ID happening
      *          in the future
      */
     //PastMeeting getPastMeeting(int id);
@@ -199,14 +200,14 @@ public class ContactManagerImpl {//implements ContactManager {
     /**
      * Create a new contact with the specified name and notes.
      *
-     * @param name the name of the contact.
+     * @param name  the name of the contact.
      * @param notes notes to be added about the contact.
      * @return the ID for the new contact
      * @throws IllegalArgumentException if the name or the notes are empty strings
-     * @throws NullPointerException if the name or the notes are null
+     * @throws NullPointerException     if the name or the notes are null
      */
     public int addNewContact(String name, String notes) {
-        if(name == null || notes == null) {
+        if (name == null || notes == null) {
             throw new NullPointerException("Name and notes cannot be null.");
         }
         if (name.equals("") || notes.equals("")) {
@@ -215,8 +216,8 @@ public class ContactManagerImpl {//implements ContactManager {
         int id = ++nextContactId;
         ContactImpl contact = new ContactImpl(id, name);
         contact.addNotes(notes);
-        this.contacts.add(contact);
-            return id;
+        contacts.add(contact);
+        return id;
     }
 
     /**
@@ -245,11 +246,20 @@ public class ContactManagerImpl {//implements ContactManager {
 
     /**
      * Save all data to disk.
-     *
+     * <p/>
      * This method must be executed when the program is
      * closed and when/if the user requests it.
      */
-    //void flush();
-
-
+    public void flush() {
+        try {
+            FileOutputStream fout = new FileOutputStream(FILENAME);
+            ObjectOutputStream oos = new ObjectOutputStream(fout);
+            oos.writeObject(meetings);
+            oos.writeObject(contacts);
+        } catch (IOException e) {
+            System.out.println("Datafile: \"" + FILENAME + "\" not found.\n" + e);
+        }
+    }
 }
+
+
