@@ -11,7 +11,7 @@ import java.io.File;
  * Created by Alexander on 08/01/2016.
  */
 public class ContactManagerImplTest {
-    private ContactManager manager;
+    private ContactManager cm;
     private Calendar futureDate;
     private Calendar pastDate;
     private Set<Contact> contacts;
@@ -24,7 +24,7 @@ public class ContactManagerImplTest {
 
     @Before
     public void init() {
-       // manager = new ContactManagerImpl();
+        cm = (ContactManager) new ContactManagerImpl();
     }
 
     @After
@@ -42,7 +42,7 @@ public class ContactManagerImplTest {
 
     @Test
     public void TestConstructorContactParameters() {
-        assertEquals(1, manager.addNewContact("Simon", "Welcome"));
+        assertEquals(1, cm.addNewContact("Simon", "Welcome"));
     }
 
 }
