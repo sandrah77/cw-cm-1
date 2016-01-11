@@ -54,7 +54,7 @@ public class ContactManagerImplTest {
 
     @Test
     public void TestConstructorContactParameters() {
-        cm = new ContactImpl(5,"James, the elder", "Welcome");
+        cm = new ContactImpl(2,"James, the elder", "Welcome");
         assertEquals(2, cm.getId());
     }
 
