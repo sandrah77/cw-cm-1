@@ -86,12 +86,14 @@ public class ContactManagerImplTest {
 
     @Test
     public void testMultipleContactIds() {
+        cm = new ContactImpl(1,"James, the elder", "Hi");
         assertEquals(1, cm.getId());
+        cm = new ContactImpl(2,"Simon", "Hi");
         assertEquals(2, cm.getId());
+        cm = new ContactImpl(3,"John", "Hi");
         assertEquals(3, cm.getId());
-        assertEquals(4, cm.getId());
-        assertEquals(5, cm.getId());
-        assertEquals(14, cm.getId());
+
+
 
 
 
