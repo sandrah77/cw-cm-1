@@ -129,4 +129,18 @@ public class ContactManagerImplTest {
         assertSame("The objects are the same", cm, cm);
     }
 
+    @Ignore
+    public void testAddingFutureMeetingRetainsValidParameters() {
+        cm = new ContactImpl(1, "Andrew", "");
+        cm = new ContactImpl(2, "Jude", "");
+        Set<Contact> contacts = new HashSet<Contact>();
+        contacts.add(new ContactImpl(1, "Andrew"));
+        contacts.add(new ContactImpl(3, "Jude"));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testNegativeIdValuesWithConstructor() {
+        cm = new ContactImpl(5, "Andrew", "Shalom");
+    }
+
 }
