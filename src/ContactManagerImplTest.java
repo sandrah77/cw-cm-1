@@ -114,13 +114,13 @@ public class ContactManagerImplTest {
 
     @Test
     public void testExceptionConstructorNegativeIdAndEmptyNotes() {
-        Contact contact = new ContactImpl(-1, "Judas", "");
+        cm = new ContactImpl(12, "Judas", "");
         cm.addNotes(null);
         cm.addNotes("Hello Everyone.");
         // contact.addNotes("We shall have a feast");
         // assertNull(null, contact.getNotes());
-        assertEquals(-1, cm.getId());
-        assertEquals(-1, cm.getNotes());
+        assertEquals(12, cm.getId());
+        assertEquals(12, cm.getNotes());
     }
 
 }
