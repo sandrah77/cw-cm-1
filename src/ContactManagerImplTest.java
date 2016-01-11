@@ -119,8 +119,7 @@ public class ContactManagerImplTest {
         cm.addNotes("Hello Everyone.");
         // contact.addNotes("We shall have a feast");
         // assertNull(null, contact.getNotes());
-        assertEquals(12, cm.getId());
-        assertEquals(12, cm.getNotes());
+        assertEquals("\n\nHello Everyone.", cm.getNotes());
     }
 
 }
