@@ -92,11 +92,15 @@ public class ContactManagerImplTest {
         assertEquals(2, cm.getId());
         cm = new ContactImpl(3,"John", "Hi");
         assertEquals(3, cm.getId());
+    }
 
-
-
-
-
+    @Test
+    public void testExceptionConstructorWithAllParameters() {
+        cm = new ContactImpl(1, "John", "Do you have any cool tricks? Try turn that water into something else!");
+        cm.addNotes("Sure..");
+        // assertEquals(12, testContact.getId());
+        // assertEquals("John",testContact.getName());
+        assertEquals("Do you have any cool tricks? Try turn that water into something else!\nSure", cm.getNotes());
     }
 
 
