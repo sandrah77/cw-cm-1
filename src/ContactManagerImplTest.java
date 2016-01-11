@@ -122,6 +122,11 @@ public class ContactManagerImplTest {
         assertEquals("\n\nHello Everyone.", cm.getNotes());
     }
 
-
+    @Test
+    public void testSimilarObjectsCreated() {
+        cm = new ContactImpl(1, "Andrew", "");
+        cm = new ContactImpl(2, "Jude", "Hi everyone!");
+        assertSame("The objects are the same", cm, cm);
+    }
 
 }

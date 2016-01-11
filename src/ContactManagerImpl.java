@@ -138,7 +138,7 @@ public class ContactManagerImpl implements ContactManager {
 
     /**
      * Returns the list of future meetings scheduled with this contact.
-     * <p/>
+     *
      * If there are none, the returned list will be empty. Otherwise,
      * the list will be chronologically sorted and will not contain any duplicates.
      *
@@ -154,7 +154,7 @@ public class ContactManagerImpl implements ContactManager {
     /**
      * Returns the list of meetings that are scheduled for, or that took
      * place on, the specified date
-     * <p/>
+     *
      * If there are none, the returned list will be empty. Otherwise,
      * the list will be chronologically sorted and will not contain any
      * duplicates.
@@ -185,8 +185,8 @@ public class ContactManagerImpl implements ContactManager {
      * Create a new record for a meeting that took place in the past.
      *
      * @param contacts a list of participants
-     * @param date     the date on which the meeting took place
-     * @param text     messages to be added about the meeting.
+     * @param date the date on which the meeting took place
+     * @param text messages to be added about the meeting.
      * @throws IllegalArgumentException if the list of contacts is
      *                                  empty, or any of the contacts does not exist
      * @throws NullPointerException     if any of the
@@ -240,6 +240,7 @@ public class ContactManagerImpl implements ContactManager {
                 break;
             }
         }
+        PastMeetingImpl pastMeeting;
         if (found) {
             if (m.getDate().after(Calendar.getInstance())) {
                 throw new IllegalStateException("This meeting is set for a future date");
@@ -249,12 +250,12 @@ public class ContactManagerImpl implements ContactManager {
                 t = ((PastMeetingImpl) m).getNotes();
             }
             meetings.remove(m);
-            PastMeetingImpl pastMeeting = new PastMeetingImpl(m.getId(), m.getDate(), m.getContacts(), t + " " + text);
+            pastMeeting = new PastMeetingImpl(m.getId(), m.getDate(), m.getContacts(), t + " " + text);
             meetings.add(pastMeeting);
         } else {
             throw new IllegalArgumentException("Invalid meeting ID: " + id);
         }
-        return m;
+        return pastMeeting;
     }
 
 
