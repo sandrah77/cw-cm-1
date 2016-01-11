@@ -81,7 +81,21 @@ public class ContactManagerImplTest {
     public void testAddNotesMutator() {
         cm = new ContactImpl(13, "Judas","Let's drink wine and break bread");
         cm.addNotes("Let the final meal commence brethren..");
-        assertEquals("Let's drink wine and break bread\nLet the final meal", cm.getNotes());
+        assertEquals("Let's drink wine and break bread\nLet the final meal commence brethren..", cm.getNotes());
     }
+
+    @Test
+    public void testMultipleContactIds() {
+        assertEquals(1, cm.getId());
+        assertEquals(2, cm.getId());
+        assertEquals(3, cm.getId());
+        assertEquals(4, cm.getId());
+        assertEquals(5, cm.getId());
+        assertEquals(14, cm.getId());
+
+
+
+    }
+
 
 }
